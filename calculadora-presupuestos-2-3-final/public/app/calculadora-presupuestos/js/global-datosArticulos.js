@@ -1,0 +1,1 @@
+window.__calculadora__=window.__calculadora__||{};window.__calculadora__.datosArticulos=window.__calculadora__.datosArticulos||[];

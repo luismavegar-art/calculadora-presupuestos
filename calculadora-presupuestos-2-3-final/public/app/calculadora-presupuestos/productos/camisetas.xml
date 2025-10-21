@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categoria id="camisetas" nombre="Camisetas">
+  <descripcion>Camisetas deportivas y casuales</descripcion>
+  <producto id="camiseta-manga-corta" nombre="Camisetas manga corta" categoria="Camisetas">
+    <articulos>
+      <articulo id="CamProAtoRol">
+        <nombre>Camiseta Promo Atomic</nombre>
+        <imagen>productos/camisetas/camiseta-promo-atomic.webp</imagen>
+        <nivel>Promo</nivel>
+        <precio>3,75</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla></talla>
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla></talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla>3XL</talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="0" grande="1"/>
+          <color nombre="Gris vigore" codigo="" infantil="0" grande="1"/>
+          <color nombre="Negro" codigo="#000000" infantil="0" grande="1"/>
+          <color nombre="Amarillo" codigo="#FFFF00" infantil="0" grande="1"/>
+          <color nombre="Naranja" codigo="#FFA500" infantil="0" grande="1"/>
+          <color nombre="Rojo" codigo="#FF0000" infantil="0" grande="1"/>
+          <color nombre="Verde Kelly" codigo="#4CBB17" infantil="0" grande="1"/>
+          <color nombre="Rosetón" codigo="#FF69B4" infantil="0" grande="1"/>
+          <color nombre="Azul turquesa" codigo="#40E0D0" infantil="0" grande="1"/>
+          <color nombre="Azul royal" codigo="#4169E1" infantil="0" grande="1"/>
+          <color nombre="Azul marino" codigo="#000080" infantil="0" grande="1"/>
+        </colores>
+      </articulo>
+      <articulo id="CamBasBikVal">
+        <nombre>Camiseta Promo Bike</nombre>
+        <imagen>productos/camisetas/camiseta-basica-bike.webp</imagen>
+        <nivel>Promo</nivel>
+        <precio>4,77</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla></talla>
+            <talla>3XS</talla>
+            <talla>2XS</talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla>XS</talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla>3XL</talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="1" grande="1"/>
+          <color nombre="Gris vigoré" codigo="#BEBEBE" infantil="0" grande="0"/>
+          <color nombre="Negro" codigo="#000000" infantil="0" grande="0"/>
+          <color nombre="Amarillo" codigo="#FFFF00" infantil="0" grande="0"/>
+          <color nombre="Rojo" codigo="#FF0000" infantil="1" grande="0"/>
+          <color nombre="Verde kelly" codigo="#4CBB17" infantil="0" grande="0"/>
+          <color nombre="Verde pistacho" codigo="#98FF98" infantil="1" grande="0"/>
+          <color nombre="Azul celeste" codigo="#87CEEB" infantil="0" grande="0"/>
+          <color nombre="Azul royal" codigo="#4169E1" infantil="1" grande="0"/>
+          <color nombre="Azul marino" codigo="#000080" infantil="0" grande="1"/>
+          <color nombre="Naranja" codigo="#FFA500" infantil="1" grande="0"/>
+          <color nombre="Granate" codigo="#800000" infantil="0" grande="0"/>
+        </colores>
+      </articulo>
+      <articulo id="CamTopRacVal">
+        <nombre>Camiseta Básica Racing</nombre>
+        <imagen>productos/camisetas/camiseta-top-racing.webp</imagen>
+        <nivel>Básica</nivel>
+        <precio>4,84</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla>4XS</talla>
+            <talla>3XS</talla>
+            <talla>2XS</talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla>XS</talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla>3XL</talla>
+            <talla>4XL</talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="1" grande="1"/>
+          <color nombre="Gris vigoré" codigo="#BEBEBE" infantil="1" grande="1"/>
+          <color nombre="Gris plomo" codigo="#7F7F7F" infantil="0" grande="1"/>
+          <color nombre="Gris marengo vigoré" codigo="#646D7E" infantil="0" grande="1"/>
+          <color nombre="Negro" codigo="#000000" infantil="1" grande="1"/>
+          <color nombre="Beige" codigo="#F5F5DC" infantil="0" grande="0"/>
+          <color nombre="Kamel" codigo="#C19A6B" infantil="0" grande="0"/>
+          <color nombre="Chocolate" codigo="#7B3F00" infantil="0" grande="0"/>
+          <color nombre="Rosa" codigo="#FFC0CB" infantil="1" grande="0"/>
+          <color nombre="Lila" codigo="#B9AEDC" infantil="1" grande="0"/>
+          <color nombre="Fucsia" codigo="#FF00FF" infantil="1" grande="0"/>
+          <color nombre="Violeta" codigo="#8F00FF" infantil="0" grande="0"/>
+          <color nombre="Amarillo" codigo="#FFFF00" infantil="0" grande="0"/>
+          <color nombre="Amarillo girasol" codigo="#FFF700" infantil="1" grande="0"/>
+          <color nombre="Naranja" codigo="#FFA500" infantil="1" grande="0"/>
+          <color nombre="Rojo" codigo="#FF0000" infantil="1" grande="1"/>
+          <color nombre="Granate" codigo="#800000" infantil="0" grande="1"/>
+          <color nombre="Verde pistacho" codigo="#98FF98" infantil="1" grande="0"/>
+          <color nombre="Verde kelly" codigo="#4CBB17" infantil="1" grande="0"/>
+          <color nombre="Verde militar" codigo="#556B2F" infantil="0" grande="0"/>
+          <color nombre="Verde botella" codigo="#006A4E" infantil="0" grande="1"/>
+          <color nombre="Azul celeste" codigo="#87CEEB" infantil="1" grande="0"/>
+          <color nombre="Azul cian" codigo="#00FFFF" infantil="1" grande="0"/>
+          <color nombre="Azul royal" codigo="#4169E1" infantil="1" grande="1"/>
+          <color nombre="Azul marino" codigo="#000080" infantil="1" grande="1"/>
+          <color nombre="Gris carbón" codigo="#36454F" infantil="0" grande="1"/>
+        </colores>
+      </articulo>
+      <articulo id="CamBasBeaRol">
+        <nombre>Camiseta Básica Beagle</nombre>
+        <imagen>productos/camisetas/camiseta-basica-beagle.webp</imagen>
+        <nivel>Top</nivel>
+        <precio>5,37</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla>4XS</talla>
+            <talla>3XS</talla>
+            <talla>2XS</talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla>XS</talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla>3XL</talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="1" grande="1"/>
+          <color nombre="Gris vigore" codigo="" infantil="1" grande="1"/>
+          <color nombre="Negro" codigo="#000000" infantil="1" grande="1"/>
+          <color nombre="Rosa" codigo="#FFC0CB" infantil="1" grande="1"/>
+          <color nombre="Rosetón" codigo="#FF69B4" infantil="1" grande="1"/>
+          <color nombre="Violeta" codigo="#8F00FF" infantil="1" grande="1"/>
+          <color nombre="Amarillo" codigo="#FFFF00" infantil="1" grande="1"/>
+          <color nombre="Naranja" codigo="#FFA500" infantil="1" grande="1"/>
+          <color nombre="Rojo" codigo="#FF0000" infantil="1" grande="1"/>
+          <color nombre="Granate" codigo="#800000" infantil="1" grande="1"/>
+          <color nombre="Verde oasis" codigo="#3F704D" infantil="1" grande="1"/>
+          <color nombre="Verde grass" codigo="#7CFC00" infantil="1" grande="1"/>
+          <color nombre="Azul celeste" codigo="#87CEEB" infantil="1" grande="1"/>
+          <color nombre="Azul denim" codigo="#1560BD" infantil="1" grande="1"/>
+          <color nombre="Azul turquesa" codigo="#40E0D0" infantil="1" grande="1"/>
+          <color nombre="Azul royal" codigo="#4169E1" infantil="1" grande="1"/>
+          <color nombre="Azul marino" codigo="#000080" infantil="1" grande="1"/>
+          <color nombre="Azul profundo" codigo="#001F3F" infantil="1" grande="1"/>
+          <color nombre="Verde menta" codigo="#98FF98" infantil="0" grande="1"/>
+          <color nombre="Verde aventura" codigo="#01786F" infantil="0" grande="1"/>
+          <color nombre="Azul luz de luna" codigo="#C0CBEA" infantil="0" grande="1"/>
+          <color nombre="Chocolate" codigo="#7B3F00" infantil="0" grande="1"/>
+          <color nombre="Verde botella" codigo="#006A4E" infantil="0" grande="1"/>
+          <color nombre="Plomo oscuro" codigo="#7F7F7F" infantil="0" grande="1"/>
+          <color nombre="Verde kelly" codigo="#4CBB17" infantil="1" grande="1"/>
+        </colores>
+      </articulo>
+      <articulo id="CamTopDogRol">
+        <nombre>Camiseta Top Dogo</nombre>
+        <imagen>productos/camisetas/camiseta-top-dogo.webp</imagen>
+        <nivel>Top</nivel>
+        <precio>6,1</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla>4XS</talla>
+            <talla>3XS</talla>
+            <talla>2XS</talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla>XS</talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla>3XL</talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="1" grande="1"/>
+          <color nombre="Gris vigore" codigo="" infantil="1" grande="1"/>
+          <color nombre="Negro" codigo="#000000" infantil="1" grande="1"/>
+          <color nombre="Crudo" codigo="#FFF7E6" infantil="0" grande="1"/>
+          <color nombre="Arena" codigo="#F5DEB3" infantil="0" grande="1"/>
+          <color nombre="Nogal" codigo="#8B5C2D" infantil="0" grande="1"/>
+          <color nombre="Chocolate" codigo="#7B3F00" infantil="0" grande="1"/>
+          <color nombre="Ebano" codigo="#555D50" infantil="0" grande="1"/>
+          <color nombre="Rosa" codigo="#FFC0CB" infantil="1" grande="1"/>
+          <color nombre="Fucsia" codigo="#FF00FF" infantil="1" grande="1"/>
+          <color nombre="Púrpura" codigo="#800080" infantil="1" grande="1"/>
+          <color nombre="Amarillo" codigo="#FFFF00" infantil="1" grande="1"/>
+          <color nombre="Naranja" codigo="#FFA500" infantil="1" grande="1"/>
+          <color nombre="Rojo" codigo="#FF0000" infantil="1" grande="1"/>
+          <color nombre="Granate" codigo="#800000" infantil="0" grande="1"/>
+          <color nombre="Verde grass" codigo="#7CFC00" infantil="1" grande="1"/>
+          <color nombre="Verde irish" codigo="#009E60" infantil="1" grande="1"/>
+          <color nombre="Verde Militar" codigo="#556B2F" infantil="0" grande="1"/>
+          <color nombre="Verde tropical" codigo="#00875A" infantil="1" grande="1"/>
+          <color nombre="Azul celeste" codigo="#87CEEB" infantil="1" grande="1"/>
+          <color nombre="Azul denim" codigo="#1560BD" infantil="0" grande="1"/>
+          <color nombre="Azul turquesa" codigo="#40E0D0" infantil="1" grande="1"/>
+          <color nombre="Azul royal" codigo="#4169E1" infantil="1" grande="1"/>
+          <color nombre="Azul marino" codigo="#000080" infantil="1" grande="1"/>
+          <color nombre="Azul océano" codigo="#0077BE" infantil="1" grande="1"/>
+          <color nombre="Lima limón" codigo="#DFFF00" infantil="1" grande="1"/>
+          <color nombre="Orquídea" codigo="#DA70D6" infantil="0" grande="1"/>
+        </colores>
+      </articulo>
+      <articulo id="CamRanTopCaiVal">
+        <nombre>Camiseta Ranglan Top Caimán</nombre>
+        <imagen>productos/camisetas/camiseta-ranglan-top-caiman.webp</imagen>
+        <nivel>Top</nivel>
+        <precio>7,5</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla></talla>
+            <talla>3XS</talla>
+            <talla>2XS</talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla></talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Blanco verde botella" codigo="" infantil="0" grande="0"/>
+          <color nombre="Blanco naranja" codigo="" infantil="0" grande="0"/>
+          <color nombre="Blanco rojo" codigo="" infantil="1" grande="0"/>
+          <color nombre="Blanco violeta" codigo="" infantil="0" grande="0"/>
+          <color nombre="Blanco azul celeste" codigo="" infantil="1" grande="0"/>
+          <color nombre="Blanco azul royal" codigo="" infantil="0" grande="0"/>
+          <color nombre="Blanco azul marino" codigo="" infantil="1" grande="0"/>
+          <color nombre="Kamel verde militar" codigo="" infantil="0" grande="0"/>
+          <color nombre="Naranja azul royal" codigo="#FFA500/#4169E1" infantil="0" grande="0"/>
+          <color nombre="Rojo negro" codigo="#FF0000/#000000" infantil="0" grande="0"/>
+          <color nombre="Azul celeste azul marino" codigo="" infantil="1" grande="0"/>
+          <color nombre="Gris marengo vigoré azul marino" codigo="" infantil="1" grande="0"/>
+        </colores>
+      </articulo>
+      <articulo id="CamPreBraRol">
+        <nombre>Camiseta Premium Braco</nombre>
+        <imagen>productos/camisetas/camiseta-premium-braco.webp</imagen>
+        <nivel>Premium</nivel>
+        <precio>8,42</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla>4XS</talla>
+            <talla>3XS</talla>
+            <talla>2XS</talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla>XS</talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla>3XL</talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="1" grande="1"/>
+          <color nombre="Gris vigore" codigo="" infantil="0" grande="1"/>
+          <color nombre="Plomo oscuro" codigo="#7F7F7F" infantil="0" grande="1"/>
+          <color nombre="Ebano" codigo="#555D50" infantil="0" grande="1"/>
+          <color nombre="Negro" codigo="#000000" infantil="1" grande="1"/>
+          <color nombre="Rosa intenso" codigo="#FF1493" infantil="0" grande="1"/>
+          <color nombre="Amarillo" codigo="#FFFF00" infantil="0" grande="1"/>
+          <color nombre="Amarillo Golden" codigo="#FFD700" infantil="0" grande="1"/>
+          <color nombre="Rojo" codigo="#FF0000" infantil="1" grande="1"/>
+          <color nombre="Rojo vino" codigo="#800000" infantil="0" grande="1"/>
+          <color nombre="Verde grass" codigo="#7CFC00" infantil="0" grande="1"/>
+          <color nombre="Verde Militar" codigo="#556B2F" infantil="0" grande="1"/>
+          <color nombre="Verde Militar oscuro" codigo="#36454F" infantil="0" grande="1"/>
+          <color nombre="Azul denim" codigo="#1560BD" infantil="0" grande="1"/>
+          <color nombre="Azul turquesa" codigo="#40E0D0" infantil="1" grande="1"/>
+          <color nombre="Azul royal" codigo="#4169E1" infantil="0" grande="1"/>
+          <color nombre="Azul marino" codigo="#000080" infantil="0" grande="1"/>
+        </colores>
+      </articulo>
+    </articulos>
+  </producto>
+  <producto id="camiseta-manga-larga" nombre="Camisetas manga larga" categoria="Camisetas">
+    <articulos>
+      <articulo id="CamManLarTopExtRol">
+        <nombre>Camiseta Manga Larga Top Extreme</nombre>
+        <imagen>productos/camisetas/camiseta-manga-larga-top-extreme.webp</imagen>
+        <nivel>Top</nivel>
+        <precio>7,89</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla></talla>
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla></talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla>3XL</talla>
+            <talla>4XL</talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="0" grande="1"/>
+          <color nombre="Negro" codigo="#000000" infantil="0" grande="1"/>
+          <color nombre="Azul marino" codigo="#000080" infantil="0" grande="1"/>
+          <color nombre="Azul royal" codigo="#4169E1" infantil="0" grande="1"/>
+          <color nombre="Rojo" codigo="#FF0000" infantil="0" grande="1"/>
+          <color nombre="Gris vigoré" codigo="#BEBEBE" infantil="0" grande="1"/>
+          <color nombre="Granate" codigo="#800000" infantil="0" grande="1"/>
+          <color nombre="Verde botella" codigo="#006A4E" infantil="0" grande="1"/>
+          <color nombre="Azul denim" codigo="#1560BD" infantil="0" grande="1"/>
+          <color nombre="Arena" codigo="#F5DEB3" infantil="0" grande="1"/>
+          <color nombre="Azul tormenta" codigo="" infantil="0" grande="1"/>
+          <color nombre="Rojo baya" codigo="" infantil="0" grande="1"/>
+        </colores>
+      </articulo>
+      <articulo id="CamManLarTopTigVal">
+        <nombre>Camiseta Manga Larga Top Tiger</nombre>
+        <imagen>productos/camisetas/camiseta-manga-larga-top-tiger.webp</imagen>
+        <nivel>Top</nivel>
+        <precio>8,59</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla></talla>
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla></talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla>3XL</talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="0" grande="1"/>
+          <color nombre="Gris Carbón" codigo="" infantil="0" grande="0"/>
+          <color nombre="Kamel" codigo="#C19A6B" infantil="0" grande="0"/>
+          <color nombre="Negro" codigo="#000000" infantil="0" grande="0"/>
+          <color nombre="Naranja" codigo="#FFA500" infantil="0" grande="0"/>
+          <color nombre="Rojo" codigo="#FF0000" infantil="0" grande="0"/>
+          <color nombre="Verde botella" codigo="#006A4E" infantil="0" grande="0"/>
+          <color nombre="Azul royal" codigo="#4169E1" infantil="0" grande="0"/>
+          <color nombre="Azul marino" codigo="#000080" infantil="0" grande="1"/>
+        </colores>
+      </articulo>
+    </articulos>
+  </producto>
+  <producto id="camiseta-tirantes" nombre="Camisetas tirantes" categoria="Camisetas">
+    <articulos>
+      <articulo id="CamTirBasAmaVal">
+        <nombre>Camiseta Tirantes Básica Amanda</nombre>
+        <imagen>productos/camisetas/camiseta-tirantes-basica-amanda.webp</imagen>
+        <nivel>Básica</nivel>
+        <precio>4,6</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla></talla>
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla>XS</talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="0" grande="0"/>
+          <color nombre="Verde manzana" codigo="" infantil="0" grande="0"/>
+          <color nombre="Naranja" codigo="#FFA500" infantil="0" grande="0"/>
+          <color nombre="Rojo loto" codigo="" infantil="0" grande="0"/>
+          <color nombre="Rosa" codigo="#FFC0CB" infantil="0" grande="0"/>
+          <color nombre="Fucsia" codigo="#FF00FF" infantil="0" grande="0"/>
+          <color nombre="Azul celeste" codigo="#87CEEB" infantil="0" grande="0"/>
+          <color nombre="Azul cian" codigo="#00FFFF" infantil="0" grande="0"/>
+          <color nombre="Negro" codigo="#000000" infantil="0" grande="0"/>
+        </colores>
+      </articulo>
+      <articulo id="CamTirTopBreRol">
+        <nombre>Camiseta Tirantes Top Brenda</nombre>
+        <imagen>productos/camisetas/camiseta-tirantes-top-brenda.webp</imagen>
+        <nivel>Top</nivel>
+        <precio>5,66</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla></talla>
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla></talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="0" grande="0"/>
+          <color nombre="Negro" codigo="#000000" infantil="0" grande="0"/>
+          <color nombre="Rojo" codigo="#FF0000" infantil="0" grande="0"/>
+          <color nombre="Gris vigoré" codigo="#BEBEBE" infantil="0" grande="0"/>
+          <color nombre="Azul turquesa" codigo="#40E0D0" infantil="0" grande="0"/>
+          <color nombre="Fucsia" codigo="#FF00FF" infantil="0" grande="0"/>
+          <color nombre="Azul royal" codigo="#4169E1" infantil="0" grande="0"/>
+          <color nombre="Azul dusty" codigo="" infantil="0" grande="0"/>
+          <color nombre="Lavanda" codigo="" infantil="0" grande="0"/>
+          <color nombre="Naranja clay" codigo="" infantil="0" grande="0"/>
+          <color nombre="Verde mist" codigo="" infantil="0" grande="0"/>
+        </colores>
+      </articulo>
+    </articulos>
+  </producto>
+  <producto id="camiseta-tecnica" nombre="Camisetas técnicas" categoria="Camisetas">
+    <articulos>
+      <articulo id="CamTecProCamRol">
+        <nombre>Camiseta Técnica Promo Camimera</nombre>
+        <imagen>productos/camisetas/camiseta-tecnica-promo-camimera.webp</imagen>
+        <nivel>Promo</nivel>
+        <precio>4,36</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla></talla>
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla></talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla>3XL</talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="1" grande="1"/>
+          <color nombre="Negro" codigo="#000000" infantil="1" grande="1"/>
+          <color nombre="Azul marino" codigo="#000080" infantil="1" grande="1"/>
+          <color nombre="Rojo" codigo="#FF0000" infantil="1" grande="1"/>
+          <color nombre="Azul Royal" codigo="" infantil="1" grande="1"/>
+          <color nombre="Azul turquesa" codigo="#40E0D0" infantil="1" grande="1"/>
+          <color nombre="Rosetón" codigo="#FF69B4" infantil="1" grande="1"/>
+          <color nombre="Plomo oscuro" codigo="#7F7F7F" infantil="1" grande="1"/>
+          <color nombre="Amarillo" codigo="#FFFF00" infantil="1" grande="1"/>
+          <color nombre="Amarillo flúor" codigo="#F3FF00" infantil="1" grande="1"/>
+          <color nombre="Coral flúor" codigo="#FF7F50" infantil="1" grande="1"/>
+          <color nombre="Lima" codigo="" infantil="1" grande="1"/>
+          <color nombre="Naranja flúor" codigo="#FFB300" infantil="1" grande="1"/>
+          <color nombre="Verde helecho" codigo="" infantil="1" grande="1"/>
+        </colores>
+      </articulo>
+      <articulo id="CamTecBasBahRol">
+        <nombre>Camiseta Técnica Básica Bahrain</nombre>
+        <imagen>productos/camisetas/camiseta-tecnica-basica-bahrain.webp</imagen>
+        <nivel>Básica</nivel>
+        <precio>4,5</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla>4XS</talla>
+            <talla>3XS</talla>
+            <talla>2XS</talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla>XS</talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla>3XL</talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="1" grande="1"/>
+          <color nombre="Plomo oscuro" codigo="#7F7F7F" infantil="1" grande="1"/>
+          <color nombre="Negro" codigo="#000000" infantil="1" grande="1"/>
+          <color nombre="Arena oscuro" codigo="" infantil="0" grande="0"/>
+          <color nombre="Rosetón" codigo="#FF69B4" infantil="1" grande="1"/>
+          <color nombre="Coral flúor" codigo="#FF7F50" infantil="1" grande="1"/>
+          <color nombre="Morado" codigo="" infantil="1" grande="1"/>
+          <color nombre="Amarillo" codigo="#FFFF00" infantil="1" grande="1"/>
+          <color nombre="Azul luz de luna" codigo="#C0CBEA" infantil="1" grande="1"/>
+          <color nombre="Naranja flúor" codigo="#FFB300" infantil="1" grande="1"/>
+          <color nombre="Rojo" codigo="#FF0000" infantil="1" grande="1"/>
+          <color nombre="Verde lima" codigo="" infantil="1" grande="1"/>
+          <color nombre="Verde helecho" codigo="" infantil="1" grande="1"/>
+          <color nombre="Verde militar" codigo="#556B2F" infantil="0" grande="0"/>
+          <color nombre="Azul celeste" codigo="#87CEEB" infantil="1" grande="1"/>
+          <color nombre="Verde menta" codigo="#98FF98" infantil="1" grande="1"/>
+          <color nombre="Azul turquesa" codigo="#40E0D0" infantil="1" grande="1"/>
+          <color nombre="Azul royal" codigo="#4169E1" infantil="1" grande="1"/>
+          <color nombre="Azul marino" codigo="#000080" infantil="1" grande="1"/>
+          <color nombre="Amarillo fluor" codigo="" infantil="1" grande="1"/>
+          <color nombre="Rosa flúor oscuro" codigo="" infantil="1" grande="1"/>
+          <color nombre="Rosa flúor" codigo="#FF0080" infantil="1" grande="1"/>
+          <color nombre="Verde flúor" codigo="#39FF14" infantil="1" grande="1"/>
+        </colores>
+      </articulo>
+      <articulo id="CamTecTopMonRol">
+        <nombre>Camiseta Técnica Top Montecarlos</nombre>
+        <imagen>productos/camisetas/camiseta-tecnica-top-montecarlos.webp</imagen>
+        <nivel>Top</nivel>
+        <precio>5,47</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla></talla>
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla></talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla>3XL</talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="1" grande="1"/>
+          <color nombre="Negro" codigo="#000000" infantil="1" grande="1"/>
+          <color nombre="Azul marino" codigo="#000080" infantil="1" grande="1"/>
+          <color nombre="Rojo" codigo="#FF0000" infantil="1" grande="1"/>
+          <color nombre="Azul royal" codigo="#4169E1" infantil="1" grande="1"/>
+          <color nombre="Azul turquesa" codigo="#40E0D0" infantil="1" grande="1"/>
+          <color nombre="Rosetón" codigo="#FF69B4" infantil="1" grande="0"/>
+          <color nombre="Plomo oscuro" codigo="#7F7F7F" infantil="1" grande="0"/>
+          <color nombre="Amarillo" codigo="#FFFF00" infantil="1" grande="0"/>
+          <color nombre="Amarillo flúor" codigo="#F3FF00" infantil="1" grande="1"/>
+          <color nombre="Arena oscuro" codigo="" infantil="0" grande="0"/>
+          <color nombre="Coral flúor" codigo="#FF7F50" infantil="1" grande="0"/>
+          <color nombre="Lima" codigo="" infantil="1" grande="0"/>
+          <color nombre="Morado" codigo="" infantil="1" grande="0"/>
+          <color nombre="Naranja flúor" codigo="#FFB300" infantil="1" grande="1"/>
+          <color nombre="Verde helecho" codigo="" infantil="1" grande="0"/>
+          <color nombre="Verde militar" codigo="#556B2F" infantil="0" grande="0"/>
+        </colores>
+      </articulo>
+      <articulo id="CamTecTopIndRol">
+        <nombre>Camiseta Técnica Top Indianápolis</nombre>
+        <imagen>productos/camisetas/camiseta-tecnica-top-indianapolis.webp</imagen>
+        <nivel>Top</nivel>
+        <precio>6,24</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla></talla>
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla></talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla>3XL</talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Amarillo flúor azul marino" codigo="" infantil="1" grande="1"/>
+          <color nombre="Blanco azul marino" codigo="" infantil="1" grande="1"/>
+          <color nombre="Blanco negro" codigo="" infantil="1" grande="1"/>
+          <color nombre="Blanco rojo" codigo="" infantil="1" grande="1"/>
+          <color nombre="Blanco azul royal" codigo="" infantil="1" grande="1"/>
+          <color nombre="Blanco verde helecho" codigo="" infantil="1" grande="1"/>
+          <color nombre="Naranja flúor negro" codigo="" infantil="1" grande="1"/>
+          <color nombre="Verde flúor blanco" codigo="" infantil="1" grande="1"/>
+        </colores>
+      </articulo>
+      <articulo id="CamTecBasAkiRol">
+        <nombre>Camiseta Técnica Básica Akita</nombre>
+        <imagen>productos/camisetas/camiseta-tecnica-basica-akita.webp</imagen>
+        <nivel>Básica</nivel>
+        <precio>6,8</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla>4XS</talla>
+            <talla>3XS</talla>
+            <talla>2XS</talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla>XS</talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Amarillo flúor" codigo="#F3FF00" infantil="1" grande="0"/>
+          <color nombre="Naranja flúor" codigo="#FFB300" infantil="1" grande="0"/>
+          <color nombre="Rosa flúor" codigo="#FF0080" infantil="1" grande="0"/>
+        </colores>
+      </articulo>
+      <articulo id="CamTecBasShaRol">
+        <nombre>Camiseta Técnica Básica Shanghai</nombre>
+        <imagen>productos/camisetas/camiseta-tecnica-basica-shanghai.webp</imagen>
+        <nivel>Básica</nivel>
+        <precio>6,82</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla></talla>
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla></talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Blanco plomo oscuro" codigo="" infantil="1" grande="0"/>
+          <color nombre="Amarillo flúor negro" codigo="" infantil="1" grande="0"/>
+          <color nombre="Naranja negro" codigo="" infantil="1" grande="0"/>
+          <color nombre="Negro plomo oscuro" codigo="" infantil="1" grande="0"/>
+          <color nombre="Rojo plomo oscuro" codigo="" infantil="1" grande="0"/>
+          <color nombre="Azul turquesa plomo oscuro" codigo="" infantil="1" grande="0"/>
+          <color nombre="Verde flúor nego" codigo="" infantil="1" grande="0"/>
+        </colores>
+      </articulo>
+      <articulo id="CamTecTopAusRol">
+        <nombre>Camiseta Técnica Top Austin</nombre>
+        <imagen>productos/camisetas/camiseta-tecnica-top-austin.webp</imagen>
+        <nivel></nivel>
+        <precio>7,99</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla></talla>
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla></talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Amarillo flúor vigoré" codigo="" infantil="0" grande="0"/>
+          <color nombre="Azul marino vigoré" codigo="" infantil="0" grande="0"/>
+          <color nombre="Coral flúor vigoré" codigo="#FF7F50/#BEBEBE" infantil="0" grande="0"/>
+          <color nombre="Lima vigoré" codigo="#A8FF04/#BEBEBE" infantil="0" grande="0"/>
+          <color nombre="Negro vigoré" codigo="" infantil="0" grande="0"/>
+          <color nombre="Azul royal vigoré" codigo="#4169E1/#BEBEBE" infantil="0" grande="0"/>
+          <color nombre="Azul turquesa vigoré" codigo="#40E0D0/#BEBEBE" infantil="0" grande="0"/>
+        </colores>
+      </articulo>
+      <articulo id="CamTecTopZolRol">
+        <nombre>Camiseta Técnica Top Zolder</nombre>
+        <imagen>productos/camisetas/camiseta-tecnica-top-zolder.webp</imagen>
+        <nivel>Top</nivel>
+        <precio>7,99</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla></talla>
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla></talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Amarillo flúor negro vigoré" codigo="" infantil="1" grande="0"/>
+          <color nombre="Blanco Coral flúor vigoré" codigo="" infantil="1" grande="0"/>
+          <color nombre="Blanco negro vigoré" codigo="" infantil="1" grande="0"/>
+          <color nombre="Negro negro vigoré" codigo="" infantil="1" grande="0"/>
+          <color nombre="Rojo rojo vigoré" codigo="" infantil="1" grande="0"/>
+          <color nombre="Azul turquesa azul turquesa vigoré" codigo="" infantil="1" grande="0"/>
+        </colores>
+      </articulo>
+      <articulo id="CamTecTirTopMisRol">
+        <nombre>Camiseta Técnica Tirantes Top Misano</nombre>
+        <imagen>productos/camisetas/camiseta-tecnica-tirantes-top-misano.webp</imagen>
+        <nivel>Top</nivel>
+        <precio>8,13</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla></talla>
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla></talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Coral flúor negro" codigo="" infantil="0" grande="0"/>
+          <color nombre="Rojo negro" codigo="#FF0000/#000000" infantil="0" grande="0"/>
+          <color nombre="Azul turquesa negro" codigo="" infantil="0" grande="0"/>
+          <color nombre="Verde flúor negro" codigo="" infantil="0" grande="0"/>
+        </colores>
+      </articulo>
+      <articulo id="CamTecCamPixTopAssRol">
+        <nombre>Camiseta Técnica Camuflaje Pixel Top Assen</nombre>
+        <imagen>productos/camisetas/camiseta-tecnica-camuflaje-pixel-top-assen.webp</imagen>
+        <nivel>Top</nivel>
+        <precio>8,91</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla></talla>
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla></talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Amarillo flúor" codigo="#F3FF00" infantil="0" grande="0"/>
+          <color nombre="Negro" codigo="#000000" infantil="0" grande="0"/>
+          <color nombre="Rojo" codigo="#FF0000" infantil="0" grande="0"/>
+          <color nombre="Azul royal" codigo="#4169E1" infantil="0" grande="0"/>
+        </colores>
+      </articulo>
+    </articulos>
+  </producto>
+</categoria>

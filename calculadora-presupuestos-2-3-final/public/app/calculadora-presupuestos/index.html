@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<title>Estructura de Contenedores</title>
+<link href="css/calculadora-presupuestos.css" rel="stylesheet"/>
+</head>
+<body>
+<div id="contenedorPrincipal">
+<div id="contenedorCentral">
+<div id="contenedorSeleccion">
+<div id="contenedorCategorias"></div>
+<div id="contenedorProductosArticulos"></div>
+<div id="contenedorInformacion"></div>
+<div id="contenedorFila">
+<div id="contenedorLogos"></div>
+<div id="contenedorLocalizaciones"></div>
+</div>
+<div id="contenedorBotones">
+<button class="principalBtn" id="grabadoBtn" onclick="seleccionarEstampacion('1')">Grabado</button>
+<button class="principalBtn" id="viniloBtn" onclick="seleccionarEstampacion('2')">Vinilo</button>
+<button class="principalBtn" id="bordadoBtn" onclick="seleccionarEstampacion('3')">Bordado</button>
+<button class="principalBtn" id="aceptarBtn" info="Añade este artículo al presupuesto" onclick="aceptarElemento()">Añadir</button>
+</div>
+<div id="contenedorTallas"></div>
+<div id="contenedorColores"></div>
+</div>
+<div id="contenedorResultado">
+<div id="contenedorBotonesGestion">
+<button class="gestionBtn" id="importarBtn" info="Selecciona y abre presupuestos guardados" onclick="importarPresupuesto()">Abrir</button>
+<button class="gestionBtn" id="exportarBtn" info="Guarda presupuesto actual" onclick="window.parent.postMessage('guardarPresupuesto','*')">Guardar</button>
+<button class="gestionBtn" id="encargarBtn" info="Encarga presupuesto actual" onclick="estampacionActivo=1">Encargar</button>
+<button class="gestionBtn" id="compartirBtn" info="Comparte presupuesto actual" onclick="estampacionActivo=1">Compartir</button>
+</div>
+<div id="contenedorResumen"></div>
+<div id="contenedorElementos"></div>
+</div>
+</div>
+</div>
+<script src="js/calculadora-presupuestos.js"></script>
+<script>
+(function(){
+  const contenedor = document.getElementById('contenedorPrincipal');
+  let lastHeight = 0;
+
+  const send = () => {
+    if (!contenedor) return;
+    const h = Math.ceil(contenedor.getBoundingClientRect().height);
+    if (Math.abs(h - lastHeight) > 1) {
+      lastHeight = h;
+      parent.postMessage({ type: 'calculadora-height', value: h }, '*');
+    }
+  };
+
+  
+  // ① Reintentos los primeros ~3s (cubre el race con el listener del parent)
+  (function bootstrapBurst(){
+    const start = Date.now();
+    const iv = setInterval(() => {
+      send();
+      if (Date.now() - start > 3000) clearInterval(iv);
+    }, 200);
+  })();
+
+  // ② Recalcular cuando carguen las imágenes
+  Array.from(document.images).forEach(img => {
+    if (img.complete) return;
+    img.addEventListener('load', send);
+    img.addEventListener('error', send);
+  });
+
+  // ③ Recalcular tras cargar las fuentes
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(send).catch(()=>{});
+  }
+
+  if (window.ResizeObserver) {
+    const ro = new ResizeObserver(send);
+    ro.observe(contenedor);
+  }
+
+  window.addEventListener('load', send);
+  window.addEventListener('resize', send);
+  send();
+})();
+</script>
+</body>
+</html>

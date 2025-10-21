@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categoria id="polos" nombre="Polos">
+  <descripcion>Polos deportivos y casuales</descripcion>
+  <producto id="polos-manga-corta" nombre="Polos manga corta" categoria="Polos">
+    <articulos>
+      <articulo id="PolTopStaRol">
+        <nombre>Polo Top Star</nombre>
+        <imagen>productos/polos/polo-top-star.webp</imagen>
+        <nivel>Top</nivel>
+        <precio>14,08</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla>4XS</talla>
+            <talla>3XS</talla>
+            <talla>2XS</talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla>XS</talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla>3XL</talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="1" grande="1"/>
+          <color nombre="Gris vigore" codigo="" infantil="0" grande="1"/>
+          <color nombre="Negro" codigo="#000000" infantil="1" grande="1"/>
+          <color nombre="Chocolate" codigo="#7B3F00" infantil="0" grande="1"/>
+          <color nombre="Rosa" codigo="#FFC0CB" infantil="0" grande="1"/>
+          <color nombre="Azul zen" codigo="" infantil="0" grande="1"/>
+          <color nombre="Rosetón" codigo="#FF69B4" infantil="0" grande="1"/>
+          <color nombre="Púrpura" codigo="#800080" infantil="0" grande="1"/>
+          <color nombre="Amarillo" codigo="#FFFF00" infantil="1" grande="1"/>
+          <color nombre="Naranja" codigo="#FFA500" infantil="0" grande="1"/>
+          <color nombre="Rojo" codigo="#FF0000" infantil="0" grande="1"/>
+          <color nombre="Granate" codigo="#800000" infantil="0" grande="1"/>
+          <color nombre="Verde menta" codigo="#98FF98" infantil="0" grande="1"/>
+          <color nombre="Verde grass" codigo="#7CFC00" infantil="0" grande="1"/>
+          <color nombre="Verde botella" codigo="#006A4E" infantil="0" grande="1"/>
+          <color nombre="Azul celeste" codigo="#87CEEB" infantil="1" grande="1"/>
+          <color nombre="Azul riviera" codigo="" infantil="0" grande="1"/>
+          <color nombre="Azul turquesa" codigo="#40E0D0" infantil="0" grande="1"/>
+          <color nombre="Azul royal" codigo="#4169E1" infantil="0" grande="1"/>
+          <color nombre="Azul marino" codigo="#000080" infantil="1" grande="1"/>
+          <color nombre="Verde tropical" codigo="#00875A" infantil="1" grande="1"/>
+          <color nombre="Azul denim" codigo="#1560BD" infantil="0" grande="1"/>
+        </colores>
+      </articulo>
+      <articulo id="PolPrePegRol">
+        <nombre>Polo Premium Pegaso</nombre>
+        <imagen>productos/polos/polo-premium-pegaso.webp</imagen>
+        <nivel>Top</nivel>
+        <precio>14,23</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla>4XS</talla>
+            <talla>3XS</talla>
+            <talla>2XS</talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla>XS</talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla>3XL</talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="1" grande="1"/>
+          <color nombre="Gris plomo oscuro" codigo="" infantil="0" grande="1"/>
+          <color nombre="Negro" codigo="#000000" infantil="0" grande="1"/>
+          <color nombre="Amarillo" codigo="#FFFF00" infantil="0" grande="1"/>
+          <color nombre="Naranja" codigo="#FFA500" infantil="0" grande="1"/>
+          <color nombre="Rojo" codigo="#FF0000" infantil="1" grande="1"/>
+          <color nombre="Granate" codigo="#800000" infantil="0" grande="1"/>
+          <color nombre="Verde mantis" codigo="" infantil="1" grande="1"/>
+          <color nombre="Verde grass" codigo="#7CFC00" infantil="0" grande="1"/>
+          <color nombre="Verde botella" codigo="#006A4E" infantil="0" grande="1"/>
+          <color nombre="Azul celeste" codigo="#87CEEB" infantil="1" grande="1"/>
+          <color nombre="Azul turquesa" codigo="#40E0D0" infantil="1" grande="1"/>
+          <color nombre="Azul royal" codigo="#4169E1" infantil="1" grande="1"/>
+          <color nombre="Azul marino" codigo="#000080" infantil="1" grande="1"/>
+        </colores>
+      </articulo>
+      <articulo id="PolTopEspRol">
+        <nombre>Polo Top España</nombre>
+        <imagen>productos/polos/polo-top-espana.webp</imagen>
+        <nivel>Top</nivel>
+        <precio>15,13</precio>
+        <tallas>
+          <grupo nombre="infantil">
+            <talla></talla>
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+          <grupo nombre="adulto">
+            <talla></talla>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <talla>2XL</talla>
+          </grupo>
+          <grupo nombre="grande">
+            <talla></talla>
+            <talla></talla>
+          </grupo>
+        </tallas>
+        <descripcion></descripcion>
+        <colores>
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="0" grande="0"/>
+          <color nombre="Negro" codigo="#000000" infantil="0" grande="0"/>
+          <color nombre="Azul marino" codigo="#000080" infantil="0" grande="0"/>
+        </colores>
+      </articulo>
+    </articulos>
+  </producto>
+  <producto id="polos-manga-larga" nombre="Polos manga larga" categoria="">
+    <articulos>
+    </articulos>
+  </producto>
+  <producto id="polos-tecnicos" nombre="Polos técnicos" categoria="">
+    <articulos>
+    </articulos>
+  </producto>
+</categoria>

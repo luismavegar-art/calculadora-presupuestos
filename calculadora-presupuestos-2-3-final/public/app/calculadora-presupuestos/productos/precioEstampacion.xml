@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<estampaciones>  
+  <grabado>  
+    <tamano id="1" descripcion="Pequeño" base="0">  
+      <rangoCantidad min="1" max="1" precio="3.00"/>  
+      <rangoCantidad min="2" max="2" precio="3.00"/>  
+      <rangoCantidad min="3" max="3" precio="3.00"/>  
+      <rangoCantidad min="4" max="24" precio="3.00"/>  
+      <rangoCantidad min="25" max="49" precio="3.00"/>  
+      <rangoCantidad min="50" max="99" precio="2.50"/>  
+      <rangoCantidad min="100" max="999999" precio="2.00"/>  
+    </tamano>    
+    <tamano id="2" descripcion="Mediano" base="0">  
+      <rangoCantidad min="1" max="1" precio="4.50"/>  
+      <rangoCantidad min="2" max="2" precio="4.00"/>  
+      <rangoCantidad min="3" max="3" precio="4.00"/>  
+      <rangoCantidad min="4" max="24" precio="4.00"/>  
+      <rangoCantidad min="25" max="49" precio="4.00"/>  
+      <rangoCantidad min="50" max="99" precio="3.00"/>  
+      <rangoCantidad min="101" max="999999" precio="2.50"/>  
+    </tamano>    
+    <tamano id="3" descripcion="Normal" base="0">  
+      <rangoCantidad min="1" max="1" precio="9.00"/>  
+      <rangoCantidad min="2" max="2" precio="7.50"/>  
+      <rangoCantidad min="3" max="3" precio="5.00"/>  
+      <rangoCantidad min="4" max="24" precio="5.00"/>  
+      <rangoCantidad min="25" max="49" precio="4.50"/>  
+      <rangoCantidad min="50" max="99" precio="4.00"/>  
+      <rangoCantidad min="101" max="999999" precio="3.50"/>  
+    </tamano>    
+    <tamano id="4" descripcion="GRANDE*" base="0">  
+      <rangoCantidad min="1" max="1" precio="15.00"/>  
+      <rangoCantidad min="2" max="2" precio="12.50"/>  
+      <rangoCantidad min="3" max="3" precio="10.00"/>  
+      <rangoCantidad min="4" max="24" precio="10.00"/>  
+      <rangoCantidad min="25" max="49" precio="7.00"/>  
+      <rangoCantidad min="50" max="99" precio="6.00"/>  
+      <rangoCantidad min="101" max="999999" precio="5.00"/>  
+    </tamano>   
+  </grabado>   
+  
+  <vinilo>  
+    <tamano id="1" descripcion="Pequeño" base="0">  
+      <rangoCantidad min="1" max="1" precio="4.00"/>  
+      <rangoCantidad min="2" max="2" precio="4.00"/>  
+      <rangoCantidad min="3" max="3" precio="4.00"/>  
+      <rangoCantidad min="4" max="24" precio="4.00"/>  
+      <rangoCantidad min="25" max="49" precio="4.00"/>  
+      <rangoCantidad min="50" max="99" precio="3.50"/>  
+      <rangoCantidad min="100" max="999999" precio="3.00"/>  
+    </tamano>    
+    <tamano id="2" descripcion="Mediano" base="0">  
+      <rangoCantidad min="1" max="1" precio="5.50"/>  
+      <rangoCantidad min="2" max="2" precio="5.00"/>  
+      <rangoCantidad min="3" max="3" precio="5.00"/>  
+      <rangoCantidad min="4" max="24" precio="5.00"/>  
+      <rangoCantidad min="25" max="49" precio="5.00"/>  
+      <rangoCantidad min="50" max="99" precio="4.00"/>  
+      <rangoCantidad min="101" max="999999" precio="3.50"/>  
+    </tamano>    
+    <tamano id="3" descripcion="Normal" base="0">  
+      <rangoCantidad min="1" max="1" precio="10.50"/>  
+      <rangoCantidad min="2" max="2" precio="9.00"/>  
+      <rangoCantidad min="3" max="3" precio="6.50"/>  
+      <rangoCantidad min="4" max="24" precio="6.50"/>  
+      <rangoCantidad min="25" max="49" precio="5.50"/>  
+      <rangoCantidad min="50" max="99" precio="4.50"/>  
+      <rangoCantidad min="101" max="999999" precio="4.00"/>  
+    </tamano>    
+    <tamano id="4" descripcion="GRANDE*" base="0">  
+      <rangoCantidad min="1" max="1" precio="16.50"/>  
+      <rangoCantidad min="2" max="2" precio="14.00"/>  
+      <rangoCantidad min="3" max="3" precio="11.50"/>  
+      <rangoCantidad min="4" max="24" precio="11.50"/>  
+      <rangoCantidad min="25" max="49" precio="8.50"/>  
+      <rangoCantidad min="50" max="99" precio="6.50"/>  
+      <rangoCantidad min="101" max="999999" precio="5.50"/>  
+    </tamano>  
+  </vinilo>  
+  
+  <bordado>   
+    <tamano id="1" descripcion="Pequeño" base="20">  
+      <rangoCantidad min="1" max="1" precio="6.00"/>  
+      <rangoCantidad min="2" max="2" precio="6.00"/>  
+      <rangoCantidad min="3" max="3" precio="6.00"/>  
+      <rangoCantidad min="4" max="24" precio="6.00"/>  
+      <rangoCantidad min="25" max="49" precio="6.00"/>  
+      <rangoCantidad min="50" max="99" precio="5.50"/>  
+      <rangoCantidad min="100" max="999999" precio="5.00"/>  
+    </tamano>    
+    <tamano id="2" descripcion="Mediano" base="30">  
+      <rangoCantidad min="1" max="1" precio="12.00"/>  
+      <rangoCantidad min="2" max="2" precio="12.00"/>  
+      <rangoCantidad min="3" max="3" precio="12.00"/>  
+      <rangoCantidad min="4" max="24" precio="12.00"/>  
+      <rangoCantidad min="25" max="49" precio="12.00"/>  
+      <rangoCantidad min="50" max="99" precio="11.00"/>  
+      <rangoCantidad min="101" max="999999" precio="10.00"/>  
+    </tamano>    
+    <tamano id="3" descripcion="Normal" base="40">  
+      <rangoCantidad min="1" max="1" precio="14.00"/>  
+      <rangoCantidad min="2" max="2" precio="14.00"/>  
+      <rangoCantidad min="3" max="3" precio="14.00"/>  
+      <rangoCantidad min="4" max="24" precio="14.00"/>  
+      <rangoCantidad min="25" max="49" precio="14.00"/>  
+      <rangoCantidad min="50" max="99" precio="13.00"/>  
+      <rangoCantidad min="101" max="999999" precio="12.00"/>  
+    </tamano>    
+    <tamano id="4" descripcion="GRANDE*" base="50">  
+      <rangoCantidad min="1" max="1" precio="17.00"/>  
+      <rangoCantidad min="2" max="2" precio="17.00"/>  
+      <rangoCantidad min="3" max="3" precio="17.00"/>  
+      <rangoCantidad min="4" max="24" precio="17.00"/>  
+      <rangoCantidad min="25" max="49" precio="17.00"/>  
+      <rangoCantidad min="50" max="99" precio="15.00"/>  
+      <rangoCantidad min="101" max="999999" precio="14.00"/>  
+    </tamano>  
+  </bordado>  
+    
+  <personalizacion>   
+      <rangoCantidad min="1" max="999999" precio="1.00"/>  
+  </personalizacion>   
+</estampaciones>  

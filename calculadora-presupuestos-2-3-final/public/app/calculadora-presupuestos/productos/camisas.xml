@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<categoria id="camisetas" nombre="Camisetas">  
+  <descripcion>Camisetas deportivas y casuales</descripcion>  
+  
+  <!-- PRODUCTO: CAMISETA MANGA CORTA -->  
+  <producto id="camiseta-manga-corta" nombre="Camisetas manga corta" categoria="Camisetas">   
+    <articulos>  
+      <!-- Artículo 1: Outlet -->  
+      <articulo id="camiseta-manga-corta-outlet">  
+        <nombre>Outlet</nombre>  
+        <imagen>productos/camisetas/camiseta-manga-corta-outlet.png</imagen>  
+        <nivel>outlet</nivel>  
+        <precio>2.99</precio>  
+        <tallas>  
+          <grupo nombre="infantil">  
+            <talla></talla>  
+            <talla></talla>  
+          </grupo>  
+          <grupo nombre="adulto">  
+            <talla></talla>  
+            <talla>S</talla>  
+            <talla>M</talla>  
+            <talla>L</talla>  
+            <talla>XL</talla>  
+            <talla>2XL</talla>  
+          </grupo>  
+          <grupo nombre="grande">  
+            <talla></talla>  
+          </grupo>  
+        </tallas>  
+        <descripcion></descripcion>  
+        <colores>  
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="1" grande="1" />  
+          <color nombre="Negro" codigo="#000000" infantil="1" grande="1" />  
+          <color nombre="Gris" codigo="#808080" infantil="1" grande="1" />  
+          <color nombre="Gris Claro" codigo="#D3D3D3" infantil="1" grande="1" />  
+          <color nombre="Rojo" codigo="#FF0000" infantil="1" grande="1" />  
+          <color nombre="Rojo Oscuro" codigo="#8B0000" infantil="1" grande="1" />  
+          <color nombre="Carmesí" codigo="#DC143C" infantil="1" grande="1" />  
+          <color nombre="Rosa" codigo="#FFC0CB" infantil="1" grande="1" />  
+          <color nombre="Rosa Oscuro" codigo="#FF1493" infantil="1" grande="1" />  
+          <color nombre="Coral" codigo="#FF7F50" infantil="1" grande="1" />  
+          <color nombre="Naranja" codigo="#FFA500" infantil="1" grande="1" />  
+          <color nombre="Naranja Oscuro" codigo="#FF8C00" infantil="1" grande="1" />  
+          <color nombre="Oro" codigo="#FFD700" infantil="1" grande="1" />  
+          <color nombre="Amarillo" codigo="#FFFF00" infantil="1" grande="1" />  
+          <color nombre="Amarillo Claro" codigo="#FFFFE0" infantil="1" grande="1" />  
+          <color nombre="Verde Lima" codigo="#32CD32" infantil="1" grande="1" />  
+          <color nombre="Verde" codigo="#008000" infantil="1" grande="1" />  
+          <color nombre="Verde Oliva" codigo="#808000" infantil="1" grande="1" />  
+          <color nombre="Turquesa" codigo="#40E0D0" infantil="1" grande="1" />  
+          <color nombre="Cian" codigo="#00FFFF" infantil="1" grande="1" />  
+          <color nombre="Celeste" codigo="#87CEEB" infantil="1" grande="1" />  
+          <color nombre="Azul Claro" codigo="#ADD8E6" infantil="1" grande="1" />  
+          <color nombre="Azul Real" codigo="#4169E1" infantil="1" grande="1" />  
+          <color nombre="Azul" codigo="#0000FF" infantil="1" grande="1" />  
+          <color nombre="Índigo" codigo="#4B0082" infantil="1" grande="1" />  
+          <color nombre="Morado" codigo="#800080"  infantil="1" grande="1"/>  
+        </colores>  
+      </articulo>  
+      
+      <!-- Artículo 2: Básico -->  
+      <articulo id="camiseta-manga-corta-basica">  
+        <nombre>Básica</nombre>  
+        <imagen>productos/camisetas/camiseta-manga-corta-basica.png</imagen>  
+        <nivel>basico</nivel>  
+        <precio>4.99</precio>  
+        <tallas>  
+          <grupo nombre="infantil">  
+            <talla>3XS</talla>  
+            <talla>2XS</talla>  
+          </grupo>  
+          <grupo nombre="adulto">  
+            <talla>XS</talla>  
+            <talla>S</talla>  
+            <talla>M</talla>  
+            <talla>L</talla>  
+            <talla>XL</talla>  
+            <talla>2XL</talla>  
+          </grupo>  
+          <grupo nombre="grande">  
+            <talla>3XL</talla>  
+            <talla>4XL</talla>  
+          </grupo>  
+        </tallas>  
+        <descripcion></descripcion>  
+        <colores>  
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="1" grande="1" />  
+          <color nombre="Negro" codigo="#000000" infantil="0" grande="1" />  
+          <color nombre="Gris" codigo="#808080" infantil="0" grande="1" />  
+          <color nombre="Gris Claro" codigo="#D3D3D3" infantil="1" grande="1" />  
+          <color nombre="Rojo" codigo="#FF0000" infantil="0" grande="1" />  
+          <color nombre="Rojo Oscuro" codigo="#8B0000" infantil="0" grande="1" />  
+          <color nombre="Carmesí" codigo="#DC143C" infantil="0" grande="1" />  
+          <color nombre="Rosa" codigo="#FFC0CB" infantil="0" grande="1" />  
+          <color nombre="Rosa Oscuro" codigo="#FF1493" infantil="1" grande="1" />  
+          <color nombre="Coral" codigo="#FF7F50" infantil="1" grande="1" />  
+          <color nombre="Naranja" codigo="#FFA500" infantil="0" grande="1" />  
+          <color nombre="Naranja Oscuro" codigo="#FF8C00" infantil="1" grande="1" />  
+          <color nombre="Oro" codigo="#FFD700" infantil="1" grande="1" />  
+          <color nombre="Amarillo" codigo="#FFFF00" infantil="0" grande="1" />  
+          <color nombre="Amarillo Claro" codigo="#FFFFE0" infantil="1" grande="1" />  
+          <color nombre="Verde Lima" codigo="#32CD32" infantil="1" grande="1" />  
+          <color nombre="Verde" codigo="#008000" infantil="1" grande="1" />  
+          <color nombre="Verde Oliva" codigo="#808000" infantil="1" grande="1" />  
+          <color nombre="Turquesa" codigo="#40E0D0" infantil="1" grande="1" />  
+          <color nombre="Cian" codigo="#00FFFF" infantil="1" grande="1" />  
+          <color nombre="Celeste" codigo="#87CEEB" infantil="1" grande="1" />  
+          <color nombre="Azul Claro" codigo="#ADD8E6" infantil="1" grande="1" />  
+          <color nombre="Azul Real" codigo="#4169E1" infantil="1" grande="1" />  
+          <color nombre="Azul" codigo="#0000FF" infantil="1" grande="1" />  
+          <color nombre="Índigo" codigo="#4B0082" infantil="1" grande="1" />  
+          <color nombre="Morado" codigo="#800080"  infantil="1" grande="1"/>  
+        </colores>  
+      </articulo>  
+      
+      <!-- Artículo 3: Superior -->  
+      <articulo id="camiseta-manga-corta-top">  
+        <nombre>Top</nombre>  
+        <imagen>productos/camisetas/camiseta-manga-corta-top.png</imagen>  
+        <nivel>superior</nivel>  
+        <precio>5.99</precio>  
+        <tallas>  
+          <grupo nombre="infantil">  
+            <talla>3XS</talla>  
+            <talla>2XS</talla>  
+          </grupo>  
+          <grupo nombre="adulto">  
+            <talla>XS</talla>  
+            <talla>S</talla>  
+            <talla>M</talla>  
+            <talla>L</talla>  
+            <talla>XL</talla>  
+            <talla>2XL</talla>  
+          </grupo>  
+          <grupo nombre="grande">  
+            <talla>3XL</talla>  
+            <talla>4XL</talla>  
+            <talla>5XL</talla>  
+          </grupo>  
+        </tallas>  
+        <descripcion></descripcion>  
+        <colores>  
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="1" grande="1" />  
+          <color nombre="Negro" codigo="#000000" infantil="1" grande="1" />  
+          <color nombre="Gris" codigo="#808080" infantil="1" grande="1" />  
+          <color nombre="Gris Claro" codigo="#D3D3D3" infantil="1" grande="1" />  
+          <color nombre="Rojo" codigo="#FF0000" infantil="1" grande="1" />  
+          <color nombre="Rojo Oscuro" codigo="#8B0000" infantil="1" grande="1" />  
+          <color nombre="Carmesí" codigo="#DC143C" infantil="1" grande="1" />  
+          <color nombre="Rosa" codigo="#FFC0CB" infantil="1" grande="1" />  
+          <color nombre="Rosa Oscuro" codigo="#FF1493" infantil="1" grande="1" />  
+          <color nombre="Coral" codigo="#FF7F50" infantil="1" grande="1" />  
+          <color nombre="Naranja" codigo="#FFA500" infantil="1" grande="1" />  
+          <color nombre="Verde Oliva" codigo="#808000" infantil="1" grande="1" />  
+          <color nombre="Turquesa" codigo="#40E0D0" infantil="1" grande="1" />  
+          <color nombre="Cian" codigo="#00FFFF" infantil="1" grande="1" />  
+          <color nombre="Celeste" codigo="#87CEEB" infantil="1" grande="1" />  
+          <color nombre="Azul Claro" codigo="#ADD8E6" infantil="1" grande="1" />  
+          <color nombre="Azul Real" codigo="#4169E1" infantil="1" grande="1" />  
+          <color nombre="Azul" codigo="#0000FF" infantil="1" grande="1" />  
+          <color nombre="Índigo" codigo="#4B0082" infantil="1" grande="1" />  
+          <color nombre="Morado" codigo="#800080"  infantil="1" grande="1"/>  
+        </colores>  
+      </articulo>  
+      
+      <!-- Artículo 4: Premium -->  
+      <articulo id="camiseta-manga-corta-premium">  
+        <nombre>Premium</nombre>  
+        <imagen>productos/camisetas/camiseta-manga-corta-premium.png</imagen>  
+        <nivel>premium</nivel>  
+        <precio>6.99</precio>  
+        <tallas>  
+          <grupo nombre="infantil">  
+            <talla>3XS</talla>  
+            <talla>2XS</talla>  
+          </grupo>  
+          <grupo nombre="adulto">  
+            <talla>XS</talla>  
+            <talla>S</talla>  
+            <talla>M</talla>  
+            <talla>L</talla>  
+            <talla>XL</talla>  
+            <talla>2XL</talla>  
+          </grupo>  
+          <grupo nombre="grande">  
+            <talla>3XL</talla>  
+            <talla>4XL</talla>  
+            <talla>5XL</talla>  
+          </grupo>  
+        </tallas>  
+        <descripcion></descripcion>  
+        <colores>  
+          <color nombre="Blanco" codigo="#FFFFFF" infantil="1" grande="1" />  
+          <color nombre="Negro" codigo="#000000" infantil="1" grande="1" />  
+          <color nombre="Gris" codigo="#808080" infantil="1" grande="1" />  
+          <color nombre="Gris Claro" codigo="#D3D3D3" infantil="1" grande="1" />  
+          <color nombre="Rojo" codigo="#FF0000" infantil="0" grande="1" />  
+          <color nombre="Rojo Oscuro" codigo="#8B0000" infantil="1" grande="1" />  
+          <color nombre="Carmesí" codigo="#DC143C" infantil="1" grande="1" />  
+          <color nombre="Coral" codigo="#FF7F50" infantil="1" grande="1" />  
+          <color nombre="Naranja" codigo="#FFA500" infantil="1" grande="1" />  
+          <color nombre="Naranja Oscuro" codigo="#FF8C00" infantil="0" grande="1" />  
+          <color nombre="Oro" codigo="#FFD700" infantil="1" grande="0" />  
+          <color nombre="Amarillo" codigo="#FFFF00" infantil="1" grande="1" />  
+          <color nombre="Amarillo Claro" codigo="#FFFFE0" infantil="1" grande="1" />  
+          <color nombre="Verde Lima" codigo="#32CD32" infantil="0" grande="1" />  
+          <color nombre="Verde" codigo="#008000" infantil="0" grande="1" />  
+          <color nombre="Verde Oliva" codigo="#808000" infantil="1" grande="1" />  
+          <color nombre="Azul Real" codigo="#4169E1" infantil="1" grande="1" />  
+          <color nombre="Azul" codigo="#0000FF" infantil="1" grande="0" />  
+          <color nombre="Índigo" codigo="#4B0082" infantil="0" grande="1" />  
+          <color nombre="Morado" codigo="#800080"  infantil="1" grande="1"/>  
+        </colores>  
+      </articulo>  
+    </articulos>  
+  </producto>  
+  
+  <!-- PRODUCTO: CAMISETA MANGA LARGA -->  
+  <producto id="camiseta-manga-larga" nombre="Camisetas manga larga">  
+    <articulos>  
+      <!-- Artículo 1: Outlet -->  
+      <articulo id="camiseta-manga-larga-basic-thermal">  
+        <nombre>Outlet</nombre>  
+        <imagen>productos/camisetas/camiseta-manga-larga/basic-thermal.png</imagen>  
+        <nivel>outlet</nivel>  
+        <precio>19.99</precio>  
+        <tallas>  
+          <grupo nombre="infantil">  
+            <talla>3XS</talla>  
+            <talla>2XS</talla>  
+          </grupo>  
+          <grupo nombre="adulto">  
+            <talla>XS</talla>  
+            <talla>S</talla>  
+            <talla>M</talla>  
+            <talla>L</talla>  
+            <talla>XL</talla>  
+            <talla>2XL</talla>  
+          </grupo>  
+          <grupo nombre="grande">  
+            <talla>3XL</talla>  
+          </grupo>  
+        </tallas>  
+        <descripcion></descripcion>  
+        <colores>  
+          <color nombre="Blanco" codigo="#FFFFFF" />  
+          <color nombre="Negro" codigo="#000000" />  
+          <color nombre="Gris" codigo="#808080" />  
+          <color nombre="Gris Claro" codigo="#D3D3D3" />  
+          <color nombre="Rojo" codigo="#FF0000" />  
+          <color nombre="Rojo Oscuro" codigo="#8B0000" />  
+          <color nombre="Carmesí" codigo="#DC143C" />  
+          <color nombre="Rosa" codigo="#FFC0CB" />  
+          <color nombre="Coral" codigo="#FF7F50" />  
+          <color nombre="Naranja" codigo="#FFA500" />  
+          <color nombre="Naranja Oscuro" codigo="#FF8C00" />  
+          <color nombre="Oro" codigo="#FFD700" />  
+          <color nombre="Amarillo" codigo="#FFFF00" />  
+          <color nombre="Verde Lima" codigo="#32CD32" />  
+          <color nombre="Verde" codigo="#008000" />  
+          <color nombre="Turquesa" codigo="#40E0D0" />  
+          <color nombre="Cian" codigo="#00FFFF" />  
+          <color nombre="Azul Claro" codigo="#ADD8E6" />  
+          <color nombre="Azul" codigo="#0000FF" />  
+          <color nombre="Azul Marino" codigo="#000080" />  
+          <color nombre="Morado" codigo="#800080" />  
+          <color nombre="Marrón" codigo="#A52A2A" />  
+          <color nombre="Caqui" codigo="#F0E68C" />  
+          <color nombre="Índigo" codigo="#4B0082" />  
+        </colores>  
+      </articulo>  
+      
+      <!-- Artículo 2: Básico -->  
+      <articulo id="camiseta-manga-larga-comfort-fit">  
+        <nombre>Camiseta Manga Larga Comfort Fit</nombre>  
+        <imagen>productos/camisetas/camiseta-manga-larga/comfort-fit.png</imagen>  
+        <nivel>basico</nivel>  
+        <precio>29.99</precio>  
+        <tallas>  
+          <grupo nombre="infantil">  
+            <talla>3XS</talla>  
+            <talla>2XS</talla>  
+          </grupo>  
+          <grupo nombre="adulto">  
+            <talla>XS</talla>  
+            <talla>S</talla>  
+            <talla>M</talla>  
+            <talla>L</talla>  
+            <talla>XL</talla>  
+            <talla>2XL</talla>  
+          </grupo>  
+          <grupo nombre="grande">  
+            <talla>3XL</talla>  
+            <talla>4XL</talla>  
+          </grupo>  
+        </tallas>  
+        <descripcion></descripcion>  
+        <colores>  
+          <color nombre="Blanco" codigo="#FFFFFF" />  
+          <color nombre="Negro" codigo="#000000" />  
+          <color nombre="Gris" codigo="#808080" />  
+          <color nombre="Gris Claro" codigo="#D3D3D3" />  
+          <color nombre="Rojo" codigo="#FF0000" />  
+          <color nombre="Rojo Oscuro" codigo="#8B0000" />  
+          <color nombre="Carmesí" codigo="#DC143C" />  
+          <color nombre="Rosa" codigo="#FFC0CB" />  
+          <color nombre="Rosa Oscuro" codigo="#FF1493" />  
+          <color nombre="Coral" codigo="#FF7F50" />  
+          <color nombre="Naranja" codigo="#FFA500" />  
+          <color nombre="Naranja Oscuro" codigo="#FF8C00" />  
+          <color nombre="Oro" codigo="#FFD700" />  
+          <color nombre="Amarillo" codigo="#FFFF00" />  
+          <color nombre="Amarillo Claro" codigo="#FFFFE0" />  
+          <color nombre="Verde Lima" codigo="#32CD32" />  
+          <color nombre="Verde" codigo="#008000" />  
+          <color nombre="Verde Oliva" codigo="#808000" />  
+          <color nombre="Turquesa" codigo="#40E0D0" />  
+          <color nombre="Cian" codigo="#00FFFF" />  
+          <color nombre="Celeste" codigo="#87CEEB" />  
+          <color nombre="Azul Claro" codigo="#ADD8E6" />  
+          <color nombre="Azul" codigo="#0000FF" />  
+          <color nombre="Azul Marino" codigo="#000080" />  
+          <color nombre="Índigo" codigo="#4B0082" />  
+          <color nombre="Morado" codigo="#800080" />  
+          <color nombre="Magenta" codigo="#FF00FF" />  
+          <color nombre="Marrón" codigo="#A52A2A" />  
+          <color nombre="Caqui" codigo="#F0E68C" />  
+        </colores>  
+      </articulo>  
+      
+      <!-- Artículo 3: Superior -->  
+      <articulo id="camiseta-manga-larga-active-dry">  
+        <nombre>Camiseta Manga Larga Active Dry</nombre>  
+        <imagen>productos/camisetas/camiseta-manga-larga/active-dry.png</imagen>  
+        <nivel>superior</nivel>  
+        <precio>44.99</precio>  
+        <tallas>  
+          <grupo nombre="infantil">  
+            <talla>3XS</talla>  
+            <talla>2XS</talla>  
+          </grupo>  
+          <grupo nombre="adulto">  
+            <talla>XS</talla>  
+            <talla>S</talla>  
+            <talla>M</talla>  
+            <talla>L</talla>  
+            <talla>XL</talla>  
+            <talla>2XL</talla>  
+          </grupo>  
+          <grupo nombre="grande">  
+            <talla>3XL</talla>  
+            <talla>4XL</talla>  
+          </grupo>  
+        </tallas>  
+        <descripcion></descripcion>  
+        <colores>  
+          <color nombre="Blanco" codigo="#FFFFFF" />  
+          <color nombre="Negro" codigo="#000000" />  
+          <color nombre="Gris" codigo="#808080" />  
+          <color nombre="Gris Claro" codigo="#D3D3D3" />  
+          <color nombre="Rojo" codigo="#FF0000" />  
+          <color nombre="Rojo Oscuro" codigo="#8B0000" />  
+          <color nombre="Carmesí" codigo="#DC143C" />  
+          <color nombre="Rosa" codigo="#FFC0CB" />  
+          <color nombre="Rosa Oscuro" codigo="#FF1493" />  
+          <color nombre="Coral" codigo="#FF7F50" />  
+          <color nombre="Naranja" codigo="#FFA500" />  
+          <color nombre="Naranja Oscuro" codigo="#FF8C00" />  
+          <color nombre="Oro" codigo="#FFD700" />  
+          <color nombre="Amarillo" codigo="#FFFF00" />  
+          <color nombre="Verde Lima" codigo="#32CD32" />  
+          <color nombre="Verde" codigo="#008000" />  
+          <color nombre="Verde Oliva" codigo="#808000" />  
+          <color nombre="Verde Bosque" codigo="#228B22" />  
+          <color nombre="Turquesa" codigo="#40E0D0" />  
+          <color nombre="Cian" codigo="#00FFFF" />  
+          <color nombre="Celeste" codigo="#87CEEB" />  
+          <color nombre="Azul Claro" codigo="#ADD8E6" />  
+          <color nombre="Azul Real" codigo="#4169E1" />  
+          <color nombre="Azul" codigo="#0000FF" />  
+          <color nombre="Azul Marino" codigo="#000080" />  
+          <color nombre="Índigo" codigo="#4B0082" />  
+          <color nombre="Morado" codigo="#800080" />  
+        </colores>  
+      </articulo>  
+      
+      <!-- Artículo 4: Premium -->  
+      <articulo id="camiseta-manga-larga-pro-thermo">  
+        <nombre>Camiseta Manga Larga Pro Thermo</nombre>  
+        <imagen>productos/camisetas/camiseta-manga-larga/pro-thermo.png</imagen>  
+        <nivel>premium</nivel>  
+        <precio>59.99</precio>  
+        <tallas>  
+          <grupo nombre="infantil">  
+            <talla>3XS</talla>  
+            <talla>2XS</talla>  
+          </grupo>  
+          <grupo nombre="adulto">  
+            <talla>XS</talla>  
+            <talla>S</talla>  
+            <talla>M</talla>  
+            <talla>L</talla>  
+            <talla>XL</talla>  
+            <talla>2XL</talla>  
+          </grupo>  
+          <grupo nombre="grande">  
+            <talla>3XL</talla>  
+            <talla>4XL</talla>  
+            <talla>5XL</talla>  
+          </grupo>  
+        </tallas>  
+        <descripcion>Camiseta térmica premium de alto rendimiento con tecnología de tres capas. Regulación térmica avanzada, antibacteriano y protección UV incluida.</descripcion>  
+        <colores>  
+          <color nombre="Blanco" codigo="#FFFFFF" />  
+          <color nombre="Negro" codigo="#000000" />  
+          <color nombre="Gris" codigo="#808080" />  
+          <color nombre="Gris Claro" codigo="#D3D3D3" />  
+          <color nombre="Rojo" codigo="#FF0000" />  
+          <color nombre="Rojo Oscuro" codigo="#8B0000" />  
+          <color nombre="Carmesí" codigo="#DC143C" />  
+          <color nombre="Rosa" codigo="#FFC0CB" />  
+          <color nombre="Rosa Oscuro" codigo="#FF1493" />  
+          <color nombre="Coral" codigo="#FF7F50" />  
+          <color nombre="Naranja" codigo="#FFA500" />  
+          <color nombre="Naranja Oscuro" codigo="#FF8C00" />  
+          <color nombre="Oro" codigo="#FFD700" />  
+          <color nombre="Amarillo" codigo="#FFFF00" />  
+          <color nombre="Amarillo Claro" codigo="#FFFFE0" />  
+          <color nombre="Verde Lima" codigo="#32CD32" />  
+          <color nombre="Verde" codigo="#008000" />  
+          <color nombre="Verde Oliva" codigo="#808000" />  
+          <color nombre="Verde Bosque" codigo="#228B22" />  
+          <color nombre="Turquesa" codigo="#40E0D0" />  
+          <color nombre="Cian" codigo="#00FFFF" />  
+          <color nombre="Celeste" codigo="#87CEEB" />  
+          <color nombre="Azul Claro" codigo="#ADD8E6" />  
+          <color nombre="Azul Real" codigo="#4169E1" />  
+          <color nombre="Azul" codigo="#0000FF" />  
+          <color nombre="Azul Marino" codigo="#000080" />  
+          <color nombre="Índigo" codigo="#4B0082" />  
+          <color nombre="Violeta" codigo="#EE82EE" />  
+          <color nombre="Morado" codigo="#800080" />  
+          <color nombre="Magenta" codigo="#FF00FF" />  
+          <color nombre="Marrón" codigo="#A52A2A" />  
+          <color nombre="Caqui" codigo="#F0E68C" />  
+        </colores>  
+      </articulo>  
+    </articulos>  
+  </producto>  
+  
+  <!-- PRODUCTO: CAMISETA TIRANTES -->  
+  <producto id="camiseta-tirantes" nombre="Camisetas tirantes">  
+    <articulos>  
+      <!-- Artículo 1: Outlet -->  
+      <articulo id="camiseta-tirantes-basic">  
+        <nombre>Camiseta Tirantes Basic</nombre>  
+        <imagen>productos/camisetas/camiseta-tirantes/basic.png</imagen>  
+        <nivel>outlet</nivel>  
+        <precio>12.99</precio>  
+        <tallas>  
+          <grupo nombre="infantil">  
+            <talla>3XS</talla>  
+            <talla>2XS</talla>  
+          </grupo>  
+          <grupo nombre="adulto">  
+            <talla>XS</talla>  
+            <talla>S</talla>  
+            <talla>M</talla>  
+            <talla>L</talla>  
+            <talla>XL</talla>  
+            <talla>2XL</talla>  
+          </grupo>  
+          <grupo nombre="grande">  
+            <talla>3XL</talla>  
+          </grupo>  
+        </tallas>  
+        <descripcion>Camiseta de tirantes básica en algodón, perfecta para días calurosos. Diseño clásico con buen ajuste y comodidad.</descripcion>  
+        <colores>  
+          <color nombre="Blanco" codigo="#FFFFFF" />  
+          <color nombre="Negro" codigo="#000000" />  
+          <color nombre="Gris" codigo="#808080" />  
+          <color nombre="Gris Claro" codigo="#D3D3D3" />  
+          <color nombre="Rojo" codigo="#FF0000" />  
+          <color nombre="Carmesí" codigo="#DC143C" />  
+          <color nombre="Rosa" codigo="#FFC0CB" />  
+          <color nombre="Coral" codigo="#FF7F50" />  
+          <color nombre="Naranja" codigo="#FFA500" />  
+          <color nombre="Oro" codigo="#FFD700" />  
+          <color nombre="Amarillo" codigo="#FFFF00" />  
+          <color nombre="Verde Lima" codigo="#32CD32" />  
+          <color nombre="Verde" codigo="#008000" />  
+          <color nombre="Turquesa" codigo="#40E0D0" />  
+          <color nombre="Cian" codigo="#00FFFF" />  
+          <color nombre="Celeste" codigo="#87CEEB" />  
+          <color nombre="Azul Claro" codigo="#ADD8E6" />  
+          <color nombre="Azul" codigo="#0000FF" />  
+          <color nombre="Azul Marino" codigo="#000080" />  
+          <color nombre="Índigo" codigo="#4B0082" />  
+          <color nombre="Morado" codigo="#800080" />  
+          <color nombre="Magenta" codigo="#FF00FF" />  
+          <color nombre="Marrón" codigo="#A52A2A" />  
+        </colores>  
+      </articulo>  
+      
+      <!-- Artículo 2: Básico -->  
+      <articulo id="camiseta-tirantes-sport">  
+        <nombre>Camiseta Tirantes Sport</nombre>  
+        <imagen>productos/camisetas/camiseta-tirantes/sport.png</imagen>  
+        <nivel>basico</nivel>  
+        <precio>19.99</precio>  
+        <tallas>  
+          <grupo nombre="infantil">  
+            <talla>3XS</talla>  
+            <talla>2XS</talla>  
+          </grupo>  
+          <grupo nombre="adulto">  
+            <talla>XS</talla>  
+            <talla>S</talla>  
+            <talla>M</talla>  
+            <talla>L</talla>  
+            <talla>XL</talla>  
+            <talla>2XL</talla>  
+          </grupo>  
+          <grupo nombre="grande">  
+            <talla>3XL</talla>  
+            <talla>4XL</talla>  
+          </grupo>  
+        </tallas>  
+        <descripcion>Camiseta de tirantes deportiva con tejido transpirable. Perfecta para entrenamientos intensos, con costuras reforzadas y buen soporte.</descripcion>  
+        <colores>  
+          <color nombre="Blanco" codigo="#FFFFFF" />  
+          <color nombre="Negro" codigo="#000000" />  
+          <color nombre="Gris" codigo="#808080" />  
+          <color nombre="Gris Claro" codigo="#D3D3D3" />  
+          <color nombre="Rojo" codigo="#FF0000" />  
+          <color nombre="Rojo Oscuro" codigo="#8B0000" />  
+          <color nombre="Carmesí" codigo="#DC143C" />  
+          <color nombre="Rosa" codigo="#FFC0CB" />  
+          <color nombre="Rosa Oscuro" codigo="#FF1493" />  
+          <color nombre="Coral" codigo="#FF7F50" />  
+          <color nombre="Naranja" codigo="#FFA500" />  
+          <color nombre="Naranja Oscuro" codigo="#FF8C00" />  
+          <color nombre="Amarillo" codigo="#FFFF00" />  
+          <color nombre="Verde Lima" codigo="#32CD32" />  
+          <color nombre="Verde" codigo="#008000" />  
+          <color nombre="Verde Oliva" codigo="#808000" />  
+          <color nombre="Turquesa" codigo="#40E0D0" />  
+          <color nombre="Cian" codigo="#00FFFF" />  
+          <color nombre="Celeste" codigo="#87CEEB" />  
+          <color nombre="Azul Claro" codigo="#ADD8E6" />  
+          <color nombre="Azul" codigo="#0000FF" />  
+          <color nombre="Azul Marino" codigo="#000080" />  
+          <color nombre="Morado" codigo="#800080" />  
+          <color nombre="Caqui" codigo="#F0E68C" />  
+        </colores>  
+      </articulo>  
+      
+      <!-- Artículo 3: Superior -->  
+      <articulo id="camiseta-tirantes-tech-fit">  
+        <nombre>Camiseta Tirantes Tech Fit</nombre>  
+        <imagen>productos/camisetas/camiseta-tirantes/tech-fit.png</imagen>  
+        <nivel>superior</nivel>  
+        <precio>32.99</precio>  
+        <tallas>  
+          <grupo nombre="infantil">  
+            <talla>3XS</talla>  
+            <talla>2XS</talla>  
+          </grupo>  
+          <grupo nombre="adulto">  
+            <talla>XS</talla>  
+            <talla>S</talla>  
+            <talla>M</talla>  
+            <talla>L</talla>  
+            <talla>XL</talla>  
+            <talla>2XL</talla>  
+          </grupo>  
+          <grupo nombre="grande">  
+            <talla>3XL</talla>  
+            <talla>4XL</talla>  
+          </grupo>  
+        </tallas>  
+        <descripcion>Camiseta de tirantes técnica con ajuste corporal. Tecnología de compresión moderada y paneles de ventilación para máximo rendimiento deportivo.</descripcion>  
+        <colores>  
+          <color nombre="Blanco" codigo="#FFFFFF" />  
+          <color nombre="Negro" codigo="#000000" />  
+          <color nombre="Gris" codigo="#808080" />  
+          <color nombre="Gris Claro" codigo="#D3D3D3" />  
+          <color nombre="Rojo" codigo="#FF0000" />  
+          <color nombre="Rojo Oscuro" codigo="#8B0000" />  
+          <color nombre="Carmesí" codigo="#DC143C" />  
+          <color nombre="Rosa" codigo="#FFC0CB" />  
+          <color nombre="Rosa Oscuro" codigo="#FF1493" />  
+          <color nombre="Coral" codigo="#FF7F50" />  
+          <color nombre="Naranja" codigo="#FFA500" />  
+          <color nombre="Naranja Oscuro" codigo="#FF8C00" />  
+          <color nombre="Oro" codigo="#FFD700" />  
+          <color nombre="Amarillo" codigo="#FFFF00" />  
+          <color nombre="Verde Lima" codigo="#32CD32" />  
+          <color nombre="Verde" codigo="#008000" />  
+          <color nombre="Verde Oliva" codigo="#808000" />  
+          <color nombre="Verde Bosque" codigo="#228B22" />  
+          <color nombre="Turquesa" codigo="#40E0D0" />  
+          <color nombre="Cian" codigo="#00FFFF" />  
+          <color nombre="Celeste" codigo="#87CEEB" />  
+          <color nombre="Azul Real" codigo="#4169E1" />  
+          <color nombre="Azul" codigo="#0000FF" />  
+          <color nombre="Azul Marino" codigo="#000080" />  
+          <color nombre="Índigo" codigo="#4B0082" />  
+          <color nombre="Violeta" codigo="#EE82EE" />  
+          <color nombre="Morado" codigo="#800080" />  
+          <color nombre="Magenta" codigo="#FF00FF" />  
+        </colores>  
+      </articulo>  
+      
+      <!-- Artículo 4: Premium -->  
+      <articulo id="camiseta-tirantes-elite-pro">  
+        <nombre>Camiseta Tirantes Elite Pro</nombre>  
+        <imagen>productos/camisetas/camiseta-tirantes/elite-pro.png</imagen>  
+        <nivel>premium</nivel>  
+        <precio>45.99</precio>  
+        <tallas>  
+          <grupo nombre="infantil">  
+            <talla>3XS</talla>  
+            <talla>2XS</talla>  
+          </grupo>  
+          <grupo nombre="adulto">  
+            <talla>XS</talla>  
+            <talla>S</talla>  
+            <talla>M</talla>  
+            <talla>L</talla>  
+            <talla>XL</talla>  
+            <talla>2XL</talla>  
+          </grupo>  
+          <grupo nombre="grande">  
+            <talla>3XL</talla>  
+            <talla>4XL</talla>  
+            <talla>5XL</talla>  
+          </grupo>  
+        </tallas>  
+        <descripcion>Camiseta de tirantes premium de competición con tecnología ergonómica. Tejido ultraligero con protección antimicrobiana y detalles reflectantes de seguridad.</descripcion>  
+        <colores>  
+          <color nombre="Blanco" codigo="#FFFFFF" />  
+          <color nombre="Negro" codigo="#000000" />  
+          <color nombre="Gris" codigo="#808080" />  
+          <color nombre="Gris Claro" codigo="#D3D3D3" />  
+          <color nombre="Rojo" codigo="#FF0000" />  
+          <color nombre="Rojo Oscuro" codigo="#8B0000" />  
+          <color nombre="Carmesí" codigo="#DC143C" />  
+          <color nombre="Rosa" codigo="#FFC0CB" />  
+          <color nombre="Rosa Oscuro" codigo="#FF1493" />  
+          <color nombre="Coral" codigo="#FF7F50" />  
+          <color nombre="Naranja" codigo="#FFA500" />  
+          <color nombre="Naranja Oscuro" codigo="#FF8C00" />  
+          <color nombre="Oro" codigo="#FFD700" />  
+          <color nombre="Amarillo" codigo="#FFFF00" />  
+          <color nombre="Amarillo Claro" codigo="#FFFFE0" />  
+          <color nombre="Verde Lima" codigo="#32CD32" />  
+          <color nombre="Verde" codigo="#008000" />  
+          <color nombre="Verde Oliva" codigo="#808000" />  
+          <color nombre="Verde Bosque" codigo="#228B22" />  
+          <color nombre="Turquesa" codigo="#40E0D0" />  
+          <color nombre="Cian" codigo="#00FFFF" />  
+          <color nombre="Celeste" codigo="#87CEEB" />  
+          <color nombre="Azul Claro" codigo="#ADD8E6" />  
+          <color nombre="Azul Real" codigo="#4169E1" />  
+          <color nombre="Azul" codigo="#0000FF" />  
+          <color nombre="Azul Marino" codigo="#000080" />  
+          <color nombre="Índigo" codigo="#4B0082" />  
+          <color nombre="Violeta" codigo="#EE82EE" />  
+          <color nombre="Morado" codigo="#800080" />  
+          <color nombre="Magenta" codigo="#FF00FF" />  
+          <color nombre="Marrón" codigo="#A52A2A" />  
+          <color nombre="Caqui" codigo="#F0E68C" />  
+        </colores>  
+      </articulo>  
+    </articulos>  
+  </producto>  
+</categoria>  

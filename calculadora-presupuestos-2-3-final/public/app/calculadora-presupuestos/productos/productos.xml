@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<cataLogo version="2.0" fecha-actualizacion="2025-23-04">  
+  <categorias>  
+    <categoria id="abrigos" nombre="Abrigos">  
+      <imagen>productos/abrigos.webp</imagen>  
+      <descripcion>Abrigos y chaquetas para protección contra el frío</descripcion>
+      
+      <producto id="chaleco-acolchado" nombre="Chalecos acolchado" categoria="Abrigos">  
+        <nombre>Chalecos acolchado</nombre>  
+        <imagen>productos/abrigos/chalecos-acolchado.webp</imagen>  
+        <plantilla>productos/abrigos/chalecos-acolchado-plantilla.png</plantilla>  
+        <zonas>  
+          <zona id="0" disponible="true"/>  
+          <zona id="1" disponible="false"/>  
+          <zona id="2" disponible="true"/>  
+          <zona id="3" disponible="false"/>  
+          <zona id="4" disponible="false"/>  
+          <zona id="5" disponible="false"/>  
+          <zona id="6" disponible="false"/>  
+          <zona id="7" disponible="false"/>  
+          <zona id="8" disponible="true"/>  
+          <zona id="9" disponible="true"/>  
+          <zona id="10" disponible="true"/>  
+          <zona id="11" disponible="true"/>  
+          <zona id="12" disponible="false"/>  
+          <zona id="13" disponible="false"/>  
+          <zona id="14" disponible="false"/>  
+          <zona id="15" disponible="false"/>  
+          <zona id="16" disponible="false"/>  
+          <zona id="17" disponible="false"/>  
+          <zona id="18" disponible="false"/>  
+          <zona id="19" disponible="false"/>  
+        </zonas>  
+      </producto>  
+      
+      <producto id="chaqueta-polar" nombre="Chaquetas polar" categoria="Abrigos">  
+        <nombre>Chaquetas polar</nombre>  
+        <imagen>productos/abrigos/chaquetas-polar.webp</imagen>  
+        <plantilla>productos/abrigos/chaquetas-polar-plantilla.png</plantilla>  
+        <zonas>  
+          <zona id="0" disponible="true"/>  
+          <zona id="1" disponible="false"/>  
+          <zona id="2" disponible="true"/>  
+          <zona id="3" disponible="false"/>  
+          <zona id="4" disponible="false"/>  
+          <zona id="5" disponible="false"/>  
+          <zona id="6" disponible="false"/>  
+          <zona id="7" disponible="false"/>  
+          <zona id="8" disponible="true"/>  
+          <zona id="9" disponible="true"/>  
+          <zona id="10" disponible="true"/>  
+          <zona id="11" disponible="true"/>  
+          <zona id="12" disponible="false"/>  
+          <zona id="13" disponible="false"/>  
+          <zona id="14" disponible="false"/>  
+          <zona id="15" disponible="false"/>  
+          <zona id="16" disponible="false"/>  
+          <zona id="17" disponible="false"/>  
+          <zona id="18" disponible="false"/>  
+          <zona id="19" disponible="false"/>  
+        </zonas>  
+      </producto>  
+      
+      <producto id="chaqueta-softshell" nombre="Chaquetas softshell" categoria="Abrigos">  
+        <nombre>Chaquetas softshell</nombre>  
+        <imagen>productos/abrigos/chaquetas-softshell.webp</imagen>  
+        <plantilla>productos/abrigos/chaquetas-softshell-plantilla.png</plantilla>  
+        <zonas>  
+          <zona id="0" disponible="true"/>  
+          <zona id="1" disponible="false"/>  
+          <zona id="2" disponible="true"/>  
+          <zona id="3" disponible="false"/>  
+          <zona id="4" disponible="false"/>  
+          <zona id="5" disponible="false"/>  
+          <zona id="6" disponible="false"/>  
+          <zona id="7" disponible="false"/>  
+          <zona id="8" disponible="true"/>  
+          <zona id="9" disponible="true"/>  
+          <zona id="10" disponible="true"/>  
+          <zona id="11" disponible="true"/>  
+          <zona id="12" disponible="false"/>  
+          <zona id="13" disponible="false"/>  
+          <zona id="14" disponible="false"/>  
+          <zona id="15" disponible="false"/>  
+          <zona id="16" disponible="false"/>  
+          <zona id="17" disponible="false"/>  
+          <zona id="18" disponible="false"/>  
+          <zona id="19" disponible="false"/>  
+        </zonas>  
+      </producto>  
+    </categoria>  
+    
+    <categoria id="camisas" nombre="Camisas">  
+      <imagen>productos/camisas.webp</imagen>  
+      <descripcion>Camisas formales e informales</descripcion>  
+      
+      <producto id="camisa-manga-corta" nombre="Camisas manga corta" categoria="Camisas">  
+        <nombre>Camisas manga corta</nombre>  
+        <imagen>productos/camisas/camisas-manga-corta.webp</imagen>  
+        <plantilla>productos/camisas/camisas-manga-corta-plantilla.png</plantilla>  
+        <zonas>  
+          <zona id="0" disponible="true"/>  
+          <zona id="1" disponible="false"/>  
+          <zona id="2" disponible="true"/>  
+          <zona id="3" disponible="false"/>  
+          <zona id="4" disponible="false"/>  
+          <zona id="5" disponible="false"/>  
+          <zona id="6" disponible="false"/>  
+          <zona id="7" disponible="false"/>  
+          <zona id="8" disponible="true"/>  
+          <zona id="9" disponible="true"/>  
+          <zona id="10" disponible="true"/>  
+          <zona id="11" disponible="true"/>  
+          <zona id="12" disponible="false"/>  
+          <zona id="13" disponible="false"/>  
+          <zona id="14" disponible="false"/>  
+          <zona id="15" disponible="false"/>  
+          <zona id="16" disponible="false"/>  
+          <zona id="17" disponible="false"/>  
+          <zona id="18" disponible="false"/>  
+          <zona id="19" disponible="false"/>  
+        </zonas>  
+      </producto>  
+      
+      <producto id="camisa-manga-larga" nombre="Camisas manga larga" categoria="Camisas">  
+        <nombre>Camisas manga larga</nombre>  
+        <imagen>productos/camisas/camisas-manga-larga.webp</imagen>  
+        <plantilla>productos/camisas/camisas-manga-larga-plantilla.png</plantilla>  
+        <zonas>  
+          <zona id="0" disponible="true"/>  
+          <zona id="1" disponible="false"/>  
+          <zona id="2" disponible="true"/>  
+          <zona id="3" disponible="false"/>  
+          <zona id="4" disponible="false"/>  
+          <zona id="5" disponible="false"/>  
+          <zona id="6" disponible="false"/>  
+          <zona id="7" disponible="false"/>  
+          <zona id="8" disponible="true"/>  
+          <zona id="9" disponible="true"/>  
+          <zona id="10" disponible="true"/>  
+          <zona id="11" disponible="true"/>  
+          <zona id="12" disponible="false"/>  
+          <zona id="13" disponible="false"/>  
+          <zona id="14" disponible="false"/>  
+          <zona id="15" disponible="false"/>  
+          <zona id="16" disponible="false"/>  
+          <zona id="17" disponible="false"/>  
+          <zona id="18" disponible="false"/>  
+          <zona id="19" disponible="false"/>  
+        </zonas>  
+      </producto>  
+    </categoria>  
+    
+    <categoria id="camisetas" nombre="Camisetas">  
+      <imagen>productos/camisetas.webp</imagen>  
+      <descripcion>Camisetas deportivas y casuales</descripcion>  
+      
+      <producto id="camiseta-manga-corta" nombre="Camisetas manga corta" categoria="Camisetas">  
+        <nombre>Camisetas manga corta</nombre>  
+        <imagen>productos/camisetas/camisetas-manga-corta.webp</imagen>  
+        <plantilla>productos/camisetas/camisetas-manga-corta-plantilla.png</plantilla>  
+        <zonas>  
+          <zona id="0" disponible="true"/>  
+          <zona id="1" disponible="true"/>  
+          <zona id="2" disponible="true"/>  
+          <zona id="3" disponible="true"/>  
+          <zona id="4" disponible="true"/>  
+          <zona id="5" disponible="true"/>  
+          <zona id="6" disponible="true"/>  
+          <zona id="7" disponible="true"/>  
+          <zona id="8" disponible="true"/>  
+          <zona id="9" disponible="true"/>  
+          <zona id="10" disponible="true"/>  
+          <zona id="11" disponible="true"/>  
+          <zona id="12" disponible="false"/>  
+          <zona id="13" disponible="false"/>  
+          <zona id="14" disponible="false"/>  
+          <zona id="15" disponible="false"/>  
+          <zona id="16" disponible="false"/>  
+          <zona id="17" disponible="false"/>  
+          <zona id="18" disponible="true"/>  
+          <zona id="19" disponible="false"/>  
+        </zonas>  
+      </producto>  
+      
+      <producto id="camiseta-manga-larga" nombre="Camisetas manga larga" categoria="Camisetas">  
+        <nombre>Camisetas Manga larga</nombre>  
+        <imagen>productos/camisetas/camisetas-manga-larga.webp</imagen>  
+        <plantilla>productos/camisetas/camisetas-manga-larga-plantilla.png</plantilla>  
+        <zonas>  
+          <zona id="0" disponible="true"/>  
+          <zona id="1" disponible="true"/>  
+          <zona id="2" disponible="true"/>  
+          <zona id="3" disponible="true"/>  
+          <zona id="4" disponible="true"/>  
+          <zona id="5" disponible="true"/>  
+          <zona id="6" disponible="true"/>  
+          <zona id="7" disponible="true"/>  
+          <zona id="8" disponible="true"/>  
+          <zona id="9" disponible="true"/>  
+          <zona id="10" disponible="true"/>  
+          <zona id="11" disponible="true"/>  
+          <zona id="12" disponible="false"/>  
+          <zona id="13" disponible="false"/>  
+          <zona id="14" disponible="false"/>  
+          <zona id="15" disponible="false"/>  
+          <zona id="16" disponible="false"/>  
+          <zona id="17" disponible="false"/>  
+          <zona id="18" disponible="true"/>  
+          <zona id="19" disponible="false"/>  
+        </zonas>  
+      </producto>  
+      
+      <producto id="camiseta-tirantes" nombre="Camisetas tirantes" categoria="Camisetas">  
+        <nombre>Camisetas tirantes</nombre>  
+        <imagen>productos/camisetas/camisetas-tirantes.webp</imagen>  
+        <plantilla>productos/camisetas/camisetas-tirantes-plantilla.plantilla.png</plantilla>  
+        <zonas>  
+          <zona id="0" disponible="true"/>  
+          <zona id="1" disponible="true"/>  
+          <zona id="2" disponible="true"/>  
+          <zona id="3" disponible="false"/>  
+          <zona id="4" disponible="false"/>  
+          <zona id="5" disponible="true"/>  
+          <zona id="6" disponible="true"/>  
+          <zona id="7" disponible="true"/>  
+          <zona id="8" disponible="true"/>  
+          <zona id="9" disponible="true"/>  
+          <zona id="10" disponible="true"/>  
+          <zona id="11" disponible="true"/>  
+          <zona id="12" disponible="false"/>  
+          <zona id="13" disponible="false"/>  
+          <zona id="14" disponible="false"/>  
+          <zona id="15" disponible="false"/>  
+          <zona id="16" disponible="false"/>  
+          <zona id="17" disponible="false"/>  
+          <zona id="18" disponible="true"/>  
+          <zona id="19" disponible="false"/>  
+        </zonas>  
+      </producto>  
+    </categoria>  
+    
+    <categoria id="pantalones" nombre="Pantalones">  
+      <imagen>productos/pantalones.webp</imagen>  
+      <descripcion>Pantalones deportivos y de trabajo</descripcion>  
+      
+      <producto id="pantalon-multibolsillos" nombre="Pantalones multibolsillos" categoria="Pantalones">  
+        <nombre>Pantalones multibolsillos</nombre>  
+        <imagen>productos/pantalones/pantalones-multibolsillos.webp</imagen>  
+        <plantilla>productos/pantalones/pantalones-multibolsillos-plantilla.png</plantilla>  
+        <zonas>  
+          <zona id="0" disponible="false"/>  
+          <zona id="1" disponible="false"/>  
+          <zona id="2" disponible="false"/>  
+          <zona id="3" disponible="false"/>  
+          <zona id="4" disponible="false"/>  
+          <zona id="5" disponible="false"/>  
+          <zona id="6" disponible="false"/>  
+          <zona id="7" disponible="false"/>  
+          <zona id="8" disponible="false"/>  
+          <zona id="9" disponible="false"/>  
+          <zona id="10" disponible="false"/>  
+          <zona id="11" disponible="false"/>  
+          <zona id="12" disponible="true"/>  
+          <zona id="13" disponible="true"/>  
+          <zona id="14" disponible="true"/>  
+          <zona id="15" disponible="true"/>  
+          <zona id="16" disponible="false"/>  
+          <zona id="17" disponible="false"/>  
+          <zona id="18" disponible="false"/>  
+          <zona id="19" disponible="false"/>  
+        </zonas>  
+      </producto>  
+      
+      <producto id="pantalon-peto" nombre="Pantalones peto" categoria="Pantalones">  
+        <nombre>Pantalones peto</nombre>  
+        <imagen>productos/pantalones/pantalones-peto.webp</imagen>  
+        <plantilla>productos/pantalones/pantalones-peto-plantilla.png</plantilla>  
+        <zonas>  
+          <zona id="0" disponible="false"/>  
+          <zona id="1" disponible="false"/>  
+          <zona id="2" disponible="false"/>  
+          <zona id="3" disponible="false"/>  
+          <zona id="4" disponible="false"/>  
+          <zona id="5" disponible="false"/>  
+          <zona id="6" disponible="false"/>  
+          <zona id="7" disponible="false"/>  
+          <zona id="8" disponible="false"/>  
+          <zona id="9" disponible="false"/>  
+          <zona id="10" disponible="false"/>  
+          <zona id="11" disponible="false"/>  
+          <zona id="12" disponible="true"/>  
+          <zona id="13" disponible="true"/>  
+          <zona id="14" disponible="true"/>  
+          <zona id="15" disponible="true"/>  
+          <zona id="16" disponible="true"/>  
+          <zona id="17" disponible="true"/>  
+          <zona id="18" disponible="false"/>  
+          <zona id="19" disponible="false"/>  
+        </zonas>  
+      </producto>  
+      
+      <producto id="pantalon-bermuda" nombre="Pantalones bermuda" categoria="Pantalones">  
+        <nombre>Pantalones bermuda</nombre>  
+        <imagen>productos/pantalones/pantalones-bermuda.webp</imagen>  
+        <plantilla>productos/pantalones/pantalones-bermuda-plantilla.png</plantilla>  
+        <zonas>  
+          <zona id="0" disponible="false"/>  
+          <zona id="1" disponible="false"/>  
+          <zona id="2" disponible="false"/>  
+          <zona id="3" disponible="false"/>  
+          <zona id="4" disponible="false"/>  
+          <zona id="5" disponible="false"/>  
+          <zona id="6" disponible="false"/>  
+          <zona id="7" disponible="false"/>  
+          <zona id="8" disponible="false"/>  
+          <zona id="9" disponible="false"/>  
+          <zona id="10" disponible="false"/>  
+          <zona id="11" disponible="false"/>  
+          <zona id="12" disponible="true"/>  
+          <zona id="13" disponible="true"/>  
+          <zona id="14" disponible="true"/>  
+          <zona id="15" disponible="true"/>  
+          <zona id="16" disponible="false"/>  
+          <zona id="17" disponible="false"/>  
+          <zona id="18" disponible="false"/>  
+          <zona id="19" disponible="false"/>  
+        </zonas>  
+      </producto>  
+    </categoria>  
+    
+    <categoria id="polos" nombre="Polos">  
+      <imagen>productos/polos.webp</imagen>  
+      <descripcion>Polos deportivos y casuales</descripcion>  
+      
+      <producto id="polos-manga-corta" nombre="Polos manga corta" categoria="Polos">  
+        <nombre>Polos manga corta</nombre>  
+        <imagen>productos/polos/polos-manga-corta.webp</imagen>  
+        <plantilla>productos/polos/polos-manga-corta-plantilla.png</plantilla>   
+        <zonas>  
+          <zona id="0" disponible="true"/>  
+          <zona id="1" disponible="false"/>  
+          <zona id="2" disponible="true"/>  
+          <zona id="3" disponible="false"/>  
+          <zona id="4" disponible="false"/>  
+          <zona id="5" disponible="false"/>  
+          <zona id="6" disponible="false"/>  
+          <zona id="7" disponible="false"/>  
+          <zona id="8" disponible="true"/>  
+          <zona id="9" disponible="true"/>  
+          <zona id="10" disponible="true"/>  
+          <zona id="11" disponible="true"/>  
+          <zona id="12" disponible="false"/>  
+          <zona id="13" disponible="false"/>  
+          <zona id="14" disponible="false"/>  
+          <zona id="15" disponible="false"/>  
+          <zona id="16" disponible="false"/>  
+          <zona id="17" disponible="false"/>  
+          <zona id="18" disponible="false"/>  
+          <zona id="19" disponible="false"/>  
+        </zonas>  
+      </producto>  
+      
+      <producto id="polos-manga-larga" nombre="Polos manga larga" categoria="Polos">  
+        <nombre>Polos manga larga</nombre>  
+        <imagen>productos/polos/polos-manga-larga.webp</imagen>  
+        <plantilla>productos/polos/polos-manga-larga-plantilla.png</plantilla>  
+        <zonas>  
+          <zona id="0" disponible="true"/>  
+          <zona id="1" disponible="false"/>  
+          <zona id="2" disponible="true"/>  
+          <zona id="3" disponible="false"/>  
+          <zona id="4" disponible="false"/>  
+          <zona id="5" disponible="false"/>  
+          <zona id="6" disponible="false"/>  
+          <zona id="7" disponible="false"/>  
+          <zona id="8" disponible="true"/>  
+          <zona id="9" disponible="true"/>  
+          <zona id="10" disponible="true"/>  
+          <zona id="11" disponible="true"/>  
+          <zona id="12" disponible="false"/>  
+          <zona id="13" disponible="false"/>  
+          <zona id="14" disponible="false"/>  
+          <zona id="15" disponible="false"/>  
+          <zona id="16" disponible="false"/>  
+          <zona id="17" disponible="false"/>  
+          <zona id="18" disponible="false"/>  
+          <zona id="19" disponible="false"/>  
+        </zonas>  
+      </producto>  
+    </categoria>  
+    
+    <categoria id="sudaderas" nombre="Sudaderas">  
+      <imagen>productos/sudaderas.webp</imagen>  
+      <descripcion>Sudaderas con y sin capucha</descripcion>  
+      
+      <producto id="sudaderas-sin-capucha" nombre="Sudaderas sin capucha" categoria="Sudaderas">  
+        <nombre>Sudaderas sin capucha</nombre>  
+        <imagen>productos/sudaderas/sudaderas-sin-capucha.webp</imagen>  
+        <plantilla>productos/sudaderas/sudaderas-sin-capucha-plantilla.png</plantilla>  
+        <zonas>  
+          <zona id="0" disponible="true"/>  
+          <zona id="1" disponible="false"/>  
+          <zona id="2" disponible="true"/>  
+          <zona id="3" disponible="false"/>  
+          <zona id="4" disponible="false"/>  
+          <zona id="5" disponible="false"/>  
+          <zona id="6" disponible="false"/>  
+          <zona id="7" disponible="false"/>  
+          <zona id="8" disponible="true"/>  
+          <zona id="9" disponible="true"/>  
+          <zona id="10" disponible="true"/>  
+          <zona id="11" disponible="true"/>  
+          <zona id="12" disponible="false"/>  
+          <zona id="13" disponible="false"/>  
+          <zona id="14" disponible="false"/>  
+          <zona id="15" disponible="false"/>  
+          <zona id="16" disponible="false"/>  
+          <zona id="17" disponible="false"/>  
+          <zona id="18" disponible="false"/>  
+          <zona id="19" disponible="false"/>  
+        </zonas>  
+      </producto> 
+      
+      <producto id="sudaderas-con-capucha" nombre="Sudaderas con capucha" categoria="Sudaderas">  
+        <nombre>Sudaderas con capucha</nombre>  
+        <imagen>productos/sudaderas/sudaderas-con-capucha.webp</imagen>  
+        <plantilla>productos/sudaderas/sudaderas-con-capucha-plantilla.png</plantilla>  
+        <zonas>  
+          <zona id="0" disponible="true"/>  
+          <zona id="1" disponible="true"/>  
+          <zona id="2" disponible="true"/>  
+          <zona id="3" disponible="true"/>  
+          <zona id="4" disponible="true"/>  
+          <zona id="5" disponible="true"/>  
+          <zona id="6" disponible="true"/>  
+          <zona id="7" disponible="true"/>  
+          <zona id="8" disponible="true"/>  
+          <zona id="9" disponible="true"/>  
+          <zona id="10" disponible="true"/>  
+          <zona id="11" disponible="true"/>  
+          <zona id="12" disponible="false"/>  
+          <zona id="13" disponible="false"/>  
+          <zona id="14" disponible="false"/>  
+          <zona id="15" disponible="false"/>  
+          <zona id="16" disponible="false"/>  
+          <zona id="17" disponible="false"/>  
+          <zona id="18" disponible="true"/>  
+          <zona id="19" disponible="false"/>  
+        </zonas>  
+      </producto> 
+          
+      <producto id="sudaderas-con-cremallera" nombre="Sudaderas con cremallera" categoria="Sudaderas">  
+        <nombre>Sudaderas con cremallera</nombre>  
+        <imagen>productos/sudaderas/sudaderas-con-cremallera.webp</imagen>  
+        <plantilla>productos/sudaderas/sudaderas-cremallera-plantilla.png</plantilla>  
+        <zonas>  
+          <zona id="0" disponible="true"/>  
+          <zona id="1" disponible="false"/>  
+          <zona id="2" disponible="true"/>  
+          <zona id="3" disponible="false"/>  
+          <zona id="4" disponible="false"/>  
+          <zona id="5" disponible="false"/>  
+          <zona id="6" disponible="false"/>  
+          <zona id="7" disponible="false"/>  
+          <zona id="8" disponible="true"/>  
+          <zona id="9" disponible="true"/>  
+          <zona id="10" disponible="true"/>  
+          <zona id="11" disponible="true"/>  
+          <zona id="12" disponible="false"/>  
+          <zona id="13" disponible="false"/>  
+          <zona id="14" disponible="false"/>  
+          <zona id="15" disponible="false"/>  
+          <zona id="16" disponible="false"/>  
+          <zona id="17" disponible="false"/>  
+          <zona id="18" disponible="false"/>  
+          <zona id="19" disponible="false"/>  
+        </zonas>  
+      </producto>
+                
+    </categoria> 
+    <categoria id="complementos" nombre="Complementos">  
+      <imagen>productos/complementos.webp</imagen>  
+      <descripcion>Complementos y accesorios</descripcion>  
+      
+      <producto id="complementos" nombre="Complementos" categoria="Complementos">  
+        <nombre>Complementos</nombre>  
+        <imagen>productos/complementos/complementos.webp</imagen>  
+        <plantilla>productos/complementos/complementos-plantilla.plantilla.png</plantilla>  
+        <zonas>  
+          <zona id="0" disponible="false"/>  
+          <zona id="1" disponible="false"/>  
+          <zona id="2" disponible="false"/>  
+          <zona id="3" disponible="false"/>  
+          <zona id="4" disponible="false"/>  
+          <zona id="5" disponible="false"/>  
+          <zona id="6" disponible="false"/>  
+          <zona id="7" disponible="false"/>  
+          <zona id="8" disponible="false"/>  
+          <zona id="9" disponible="false"/>  
+          <zona id="10" disponible="false"/>  
+          <zona id="11" disponible="false"/>  
+          <zona id="12" disponible="false"/>  
+          <zona id="13" disponible="false"/>  
+          <zona id="14" disponible="false"/>  
+          <zona id="15" disponible="false"/>  
+          <zona id="16" disponible="false"/>  
+          <zona id="17" disponible="false"/>  
+          <zona id="18" disponible="false"/>  
+          <zona id="19" disponible="true"/>  
+        </zonas>  
+      </producto>  
+    </categoria>  
+  </categorias>  
+  
+  <configuracion>  
+    <zonas-id>  
+      <zona id="0" nombre="escudo" descripcion="Logo pequeño hasta 8x8cm o nombre/número hasta 8x4cm" medida="1" left="30%" top="29%" height="12%" width="8%" z-index="15"/>  
+      <zona id="1" nombre="centroescudo" descripcion="Logo pequeño hasta 8x8cm o nombre/número hasta 8x4cm" medida="1" left="20.5%" top="29%" height="12%" width="8%" z-index="15"/>  
+      <zona id="2" nombre="contraescudo" descripcion="Logo pequeño hasta 8x8cm o nombre/número hasta 8x4cm" medida="1" left="11%" top="29%" height="12%" width="8%" z-index="15"/>  
+      <zona id="3" nombre="brazo-dcho" descripcion="Logo pequeño hasta 8x8cm o nombre/número hasta 8x4cm" medida="1" left="0%" top="29%" height="12%" width="8%" z-index="5"/>  
+      <zona id="4" nombre="brazo-izdo" descripcion="Logo pequeño hasta 8x8cm o nombre/número hasta 8x4cm" medida="1" left="41%" top="29%" height="12%" width="8%" z-index="5"/>  
+      <zona id="5" nombre="delante-normal" descripcion="Logo grande hasta 30x25cm" medida="3" left="15%" top="25%" height="35%" width="19%" z-index="10"/>  
+      <zona id="6" nombre="delante-grande" descripcion="Logo ENORME hasta 40x30cm" medida="4" left="11%" top="22%" height="46%" width="27%" z-index="5"/>  
+      <zona id="7" nombre="delante-subnombre" descripcion="Logo mediano hasta 30x10cm" medida="2" left="11%" top="70%" height="12%" width="27%" z-index="5"/>  
+      <zona id="8" nombre="detras-nombre" descripcion="Logo mediano hasta 30x10cm" medida="2" left="61%" top="25%" height="12%" width="27%" z-index="15"/>  
+      <zona id="9" nombre="detras-normal" descripcion="Logo grande hasta 30x25cm" medida="3" left="65%" top="25%" height="35%" width="19%" z-index="10"/>  
+      <zona id="10" nombre="detras-grande" descripcion="Logo ENORME hasta 40x30cm" medida="4" left="61%" top="22%" height="46%" width="27%" z-index="5"/>  
+      <zona id="11" nombre="detras-subnombre" descripcion="Logo mediano hasta 30x10cm" medida="2" left="61%" top="70%" height="12%" width="27%" z-index="5"/>  
+      <zona id="12" nombre="pierna-dcha" descripcion="Logo mediano hasta 30x10cm" medida="2" left="13%" top="45%" height="40%" width="8%" z-index="5"/>  
+      <zona id="13" nombre="pierna-izda" descripcion="Logo mediano hasta 30x10cm" medida="2" left="29%" top="45%" height="40%" width="8%" z-index="5"/>  
+      <zona id="14" nombre="bolsillo-dcha" descripcion="Logo pequeño hasta 8x8cm o nombre/número hasta 8x4cm" medida="1" left="67%" top="35%" height="12%" width="8%" z-index="5"/>  
+      <zona id="15" nombre="bolsillo-izda" descripcion="Logo pequeño hasta 8x8cm o nombre/número hasta 8x4cm" medida="1" left="80%" top="35%" height="12%" width="8%" z-index="5"/>  
+      <zona id="16" nombre="peto-bolsillo" descripcion="Logo pequeño hasta 8x8cm o nombre/número hasta 8x4cm" medida="1" left="21%" top="10%" height="12%" width="8%" z-index="5"/>  
+      <zona id="17" nombre="peto-interior" descripcion="Logo pequeño hasta 8x8cm o nombre/número hasta 8x4cm" medida="1" left="73%" top="10%" height="12%" width="8%" z-index="5"/>  
+      <zona id="18" nombre="delante-nombre" descripcion="Logo mediano hasta 30x10cm" medida="2" left="11%" top="35%" height="12%" width="27%" z-index="15"/>  
+      <zona id="19" nombre="completa" descripcion="Logo ENORME hasta 40x30cm" medida="4" left="12%" top="25%" height="35%" width="50%" z-index="5"/>  
+    </zonas-id>    
+  </configuracion>    
+</cataLogo>
